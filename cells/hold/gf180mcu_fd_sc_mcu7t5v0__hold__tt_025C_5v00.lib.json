@@ -1,0 +1,95 @@
+{
+    "cell gf180mcu_fd_sc_mcu7t5v0__hold": {
+        "area": "19.756800",
+        "leakage_power ": [
+            {
+                "related_pg_pin": "VDD",
+                "when": "!Z",
+                "value": "0.0001008"
+            },
+            {
+                "related_pg_pin": "VDD",
+                "when": "Z",
+                "value": "0.0001008"
+            },
+            {
+                "related_pg_pin": "VDD",
+                "value": "0.0001008"
+            }
+        ],
+        "pg_pin VDD": {
+            "voltage_name": "VDD",
+            "pg_type": "primary_power"
+        },
+        "pg_pin VSS": {
+            "voltage_name": "VSS",
+            "pg_type": "primary_ground"
+        },
+        "pin Z": {
+            "capacitance": "0.01768",
+            "direction": "inout",
+            "driver_type": "bus_hold",
+            "function": "Z",
+            "input_voltage": "default",
+            "max_transition": "4",
+            "output_voltage": "default",
+            "related_ground_pin": "VSS",
+            "related_power_pin": "VDD",
+            "three_state": "1",
+            "internal_power ": {
+                "fall_power pwr_tin_10": {
+                    "index_1": [
+                        0.02,
+                        0.04747,
+                        0.1439,
+                        0.328,
+                        0.6149,
+                        1.017,
+                        1.547,
+                        2.214,
+                        3.029,
+                        4
+                    ],
+                    "values": [
+                        0.1988,
+                        0.1972,
+                        0.2095,
+                        0.2459,
+                        0.3085,
+                        0.4,
+                        0.5229,
+                        0.679,
+                        0.8704,
+                        1.099
+                    ]
+                },
+                "rise_power pwr_tin_10": {
+                    "index_1": [
+                        0.02,
+                        0.04747,
+                        0.1439,
+                        0.328,
+                        0.6149,
+                        1.017,
+                        1.547,
+                        2.214,
+                        3.029,
+                        4
+                    ],
+                    "values": [
+                        0.003427,
+                        0.001826,
+                        0.006293,
+                        0.03112,
+                        0.08331,
+                        0.1648,
+                        0.2774,
+                        0.4227,
+                        0.6028,
+                        0.8196
+                    ]
+                }
+            }
+        }
+    }
+}

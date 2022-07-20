@@ -1,0 +1,22 @@
+* Copyright 2022 GlobalFoundries PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+
+.SUBCKT gf180mcu_fd_sc_mcu7t5v0__nor3_1 A1 A2 A3 ZN VDD VNW VPW VSS
+M_i_2 ZN A3 VSS VPW nmos_5p0 W=4.65e-07 L=6e-07
+M_i_1 VSS A2 ZN VPW nmos_5p0 W=4.65e-07 L=6e-07
+M_i_0 ZN A1 VSS VPW nmos_5p0 W=4.65e-07 L=6e-07
+M_i_5 net_1 A3 VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_4 net_0 A2 net_1 VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_3 ZN A1 net_0 VNW pmos_5p0 W=1.22e-06 L=5e-07
+.ENDS

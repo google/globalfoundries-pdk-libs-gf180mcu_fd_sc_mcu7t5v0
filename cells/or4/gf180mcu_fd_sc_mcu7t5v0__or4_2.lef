@@ -1,0 +1,84 @@
+# Copyright 2022 GlobalFoundries PDK Authors
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+MACRO gf180mcu_fd_sc_mcu7t5v0__or4_2
+  CLASS core ;
+  FOREIGN gf180mcu_fd_sc_mcu7t5v0__or4_2 0.0 0.0 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X Y ;
+  SITE GF018hv5v_mcu_sc7 ;
+  SIZE 7.84 BY 3.92 ;
+  PIN A1
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 0.889 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0.66 1.015 1.02 1.015 1.02 2.29 0.66 2.29  ;
+    END
+  END A1
+  PIN A2
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 0.889 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 1.78 1.48 2.14 1.48 2.14 3.39 1.78 3.39  ;
+    END
+  END A2
+  PIN A3
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 0.889 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 2.9 1.48 3.26 1.48 3.26 3.39 2.9 3.39  ;
+    END
+  END A3
+  PIN A4
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 0.889 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 4.02 1.48 4.38 1.48 4.38 3.39 4.02 3.39  ;
+    END
+  END A4
+  PIN Z
+    DIRECTION OUTPUT ;
+    ANTENNADIFFAREA 1.1218 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 5.97 2.36 6.75 2.36 7.01 2.36 7.01 1.56 6.025 1.56 6.025 0.53 6.585 0.53 6.585 1.24 7.28 1.24 7.28 2.68 6.75 2.68 6.585 2.68 6.585 3.39 5.97 3.39  ;
+    END
+  END Z
+  PIN VDD
+    DIRECTION INOUT ;
+    USE power ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0 3.62 4.82 3.62 4.82 2.53 5.05 2.53 5.05 3.62 6.75 3.62 7.045 3.62 7.045 2.99 7.275 2.99 7.275 3.62 7.84 3.62 7.84 4.22 6.75 4.22 0 4.22  ;
+    END
+  END VDD
+  PIN VSS
+    DIRECTION INOUT ;
+    USE ground ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0 -0.3 7.84 -0.3 7.84 0.3 7.375 0.3 7.375 0.9 7.145 0.9 7.145 0.3 5.01 0.3 5.01 0.655 4.67 0.655 4.67 0.3 2.77 0.3 2.77 0.655 2.43 0.655 2.43 0.3 0.53 0.3 0.53 0.655 0.19 0.655 0.19 0.3 0 0.3  ;
+    END
+  END VSS
+  OBS
+      LAYER METAL1 ;
+        POLYGON 0.345 2.53 1.31 2.53 1.31 0.53 1.65 0.53 1.65 0.945 3.55 0.945 3.55 0.53 3.89 0.53 3.89 0.945 5.26 0.945 5.26 1.845 6.75 1.845 6.75 2.075 5.03 2.075 5.03 1.18 1.54 1.18 1.54 2.76 0.575 2.76 0.575 3.39 0.345 3.39  ;
+  END
+END gf180mcu_fd_sc_mcu7t5v0__or4_2

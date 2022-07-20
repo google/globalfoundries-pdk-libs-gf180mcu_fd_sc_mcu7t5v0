@@ -1,0 +1,64 @@
+# Copyright 2022 GlobalFoundries PDK Authors
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+MACRO gf180mcu_fd_sc_mcu7t5v0__nor2_2
+  CLASS core ;
+  FOREIGN gf180mcu_fd_sc_mcu7t5v0__nor2_2 0.0 0.0 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X Y ;
+  SITE GF018hv5v_mcu_sc7 ;
+  SIZE 5.6 BY 3.92 ;
+  PIN A1
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 1.898 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 1.48 1.77 3.22 1.77 3.22 2.15 1.48 2.15  ;
+    END
+  END A1
+  PIN A2
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 1.898 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0.81 1.58 1.06 1.58 1.06 2.38 3.48 2.38 3.48 1.77 4.39 1.77 4.39 2.15 3.78 2.15 3.78 2.7 0.81 2.7  ;
+    END
+  END A2
+  PIN ZN
+    DIRECTION OUTPUT ;
+    ANTENNADIFFAREA 1.283 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 2.39 3.14 4.095 3.14 4.095 2.8 4.625 2.8 4.625 1.32 1.365 1.32 1.365 0.53 1.595 0.53 1.595 1.05 3.605 1.05 3.605 0.53 3.835 0.53 3.835 1.05 4.895 1.05 4.895 3.035 4.325 3.035 4.325 3.37 2.39 3.37  ;
+    END
+  END ZN
+  PIN VDD
+    DIRECTION INOUT ;
+    USE power ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0 3.62 0.295 3.62 0.295 2.625 0.525 2.625 0.525 3.62 4.61 3.62 4.61 3.285 4.97 3.285 4.97 3.62 5.6 3.62 5.6 4.22 0 4.22  ;
+    END
+  END VDD
+  PIN VSS
+    DIRECTION INOUT ;
+    USE ground ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0 -0.3 5.6 -0.3 5.6 0.3 5.02 0.3 5.02 0.82 4.66 0.82 4.66 0.3 2.78 0.3 2.78 0.82 2.42 0.82 2.42 0.3 0.54 0.3 0.54 0.82 0.18 0.82 0.18 0.3 0 0.3  ;
+    END
+  END VSS
+END gf180mcu_fd_sc_mcu7t5v0__nor2_2

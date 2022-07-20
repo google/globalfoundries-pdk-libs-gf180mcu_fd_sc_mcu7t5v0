@@ -1,0 +1,71 @@
+# Copyright 2022 GlobalFoundries PDK Authors
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+MACRO gf180mcu_fd_sc_mcu7t5v0__invz_1
+  CLASS core ;
+  FOREIGN gf180mcu_fd_sc_mcu7t5v0__invz_1 0.0 0.0 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X Y ;
+  SITE GF018hv5v_mcu_sc7 ;
+  SIZE 9.52 BY 3.92 ;
+  PIN EN
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 1.052 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0.41 1.7 2.425 1.7 2.425 2.12 0.41 2.12  ;
+    END
+  END EN
+  PIN I
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 0.526 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 7.74 1.56 9.34 1.56 9.4 1.56 9.4 2.375 9.34 2.375 7.74 2.375  ;
+    END
+  END I
+  PIN ZN
+    DIRECTION OUTPUT ;
+    ANTENNADIFFAREA 1.072725 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 4.53 0.99 4.92 0.99 4.92 2.93 4.53 2.93  ;
+    END
+  END ZN
+  PIN VDD
+    DIRECTION INOUT ;
+    USE power ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0 3.62 1.265 3.62 1.265 2.865 1.495 2.865 1.495 3.62 5.615 3.62 5.615 3 5.845 3 5.845 3.62 6.98 3.62 7.77 3.62 7.77 3.115 8 3.115 8 3.62 9.34 3.62 9.52 3.62 9.52 4.22 9.34 4.22 6.98 4.22 0 4.22  ;
+    END
+  END VDD
+  PIN VSS
+    DIRECTION INOUT ;
+    USE ground ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0 -0.3 9.52 -0.3 9.52 0.3 8 0.3 8 0.815 7.77 0.815 7.77 0.3 6.16 0.3 6.16 0.905 5.93 0.905 5.93 0.3 1.65 0.3 1.65 0.76 1.31 0.76 1.31 0.3 0 0.3  ;
+    END
+  END VSS
+  OBS
+      LAYER METAL1 ;
+        POLYGON 0.245 2.405 2.71 2.405 2.71 1.225 0.18 1.225 0.18 0.53 0.54 0.53 0.54 0.995 3.01 0.995 3.01 2.635 0.475 2.635 0.475 3.39 0.245 3.39  ;
+        POLYGON 2.4 0.53 5.575 0.53 5.575 1.135 6.585 1.135 6.585 0.53 6.935 0.53 6.935 1.365 5.575 1.365 5.575 1.62 5.345 1.62 5.345 0.76 3.47 0.76 3.47 2.61 3.82 2.61 3.82 2.91 3.24 2.91 3.24 0.76 2.4 0.76  ;
+        POLYGON 2.285 2.865 2.515 2.865 2.515 3.16 4.05 3.16 4.05 2.38 3.77 2.38 3.77 0.99 4.11 0.99 4.11 2.15 4.28 2.15 4.28 3.16 5.15 3.16 5.15 1.9 5.38 1.9 5.38 2.535 6.98 2.535 6.98 3.375 6.75 3.375 6.75 2.77 5.385 2.77 5.385 3.39 2.285 3.39  ;
+        POLYGON 7.26 1.045 8.23 1.045 8.23 0.53 9.34 0.53 9.34 0.76 8.46 0.76 8.46 1.275 7.49 1.275 7.49 2.65 9.175 2.65 9.175 3.375 8.945 3.375 8.945 2.885 7.26 2.885  ;
+  END
+END gf180mcu_fd_sc_mcu7t5v0__invz_1

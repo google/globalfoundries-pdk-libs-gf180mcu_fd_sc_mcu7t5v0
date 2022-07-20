@@ -1,0 +1,44 @@
+* Copyright 2022 GlobalFoundries PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+
+.SUBCKT gf180mcu_fd_sc_mcu7t5v0__dffsnq_1 D SETN CLK Q VDD VNW VPW VSS
+M_tn3 ncki CLK VSS VPW nmos_5p0 W=4.05e-07 L=6e-07
+M_tn0 cki ncki VSS VPW nmos_5p0 W=4.05e-07 L=6e-07
+M_tn10 net13 D VSS VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn6 net13 ncki net3 VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn4 net3 cki net14 VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn5 VSS net4 net14 VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn2 net0 net3 VSS VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn1 net4 SETN net0 VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn13 net5 cki net4 VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn12 net7 ncki net5 VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn14 net1 SETN net7 VPW nmos_5p0 W=4.05e-07 L=6e-07
+M_tn15 VSS net6 net1 VPW nmos_5p0 W=4.05e-07 L=6e-07
+M_tn18 net6 net5 VSS VPW nmos_5p0 W=4.05e-07 L=6e-07
+M_tn16 VSS net6 Q VPW nmos_5p0 W=8.15e-07 L=6e-07
+M_tp4 ncki CLK VDD VNW pmos_5p0 W=8.65e-07 L=5e-07
+M_tp0 cki ncki VDD VNW pmos_5p0 W=8.65e-07 L=5e-07
+M_tp8 VDD D net13 VNW pmos_5p0 W=5.05e-07 L=5e-07
+M_tp9 net3 cki net13 VNW pmos_5p0 W=5.05e-07 L=5e-07
+M_tp6 net10 ncki net3 VNW pmos_5p0 W=5.05e-07 L=5e-07
+M_tp5 VDD net4 net10 VNW pmos_5p0 W=5.05e-07 L=5e-07
+M_tp3 net4 net3 VDD VNW pmos_5p0 W=5.85e-07 L=5e-07
+M_tp2 VDD SETN net4 VNW pmos_5p0 W=5.85e-07 L=5e-07
+M_tp18 net5 ncki net4 VNW pmos_5p0 W=4.15e-07 L=5e-07
+M_tp17 net7 cki net5 VNW pmos_5p0 W=4.15e-07 L=5e-07
+M_tp12 net7 SETN VDD VNW pmos_5p0 W=7.8e-07 L=5e-07
+M_tp13 VDD net6 net7 VNW pmos_5p0 W=7.8e-07 L=5e-07
+M_tp16 net6 net5 VDD VNW pmos_5p0 W=7.8e-07 L=5e-07
+M_tp14 VDD net6 Q VNW pmos_5p0 W=1.215e-06 L=5e-07
+.ENDS

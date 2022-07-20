@@ -1,0 +1,35 @@
+* Copyright 2022 GlobalFoundries PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+
+.SUBCKT gf180mcu_fd_sc_mcu7t5v0__latrnq_1 D E RN Q VDD VNW VPW VSS
+M_tn3 net7 E VSS VPW nmos_5p0 W=4.65e-07 L=6e-07
+M_tn10 net1 RN VSS VPW nmos_5p0 W=3.95e-07 L=6e-07
+M_tn9 net2 D net1 VPW nmos_5p0 W=3.95e-07 L=6e-07
+M_tn8 net2 E net3 VPW nmos_5p0 W=3.95e-07 L=6e-07
+M_tn7 net3 net7 net4 VPW nmos_5p0 W=3.95e-07 L=6e-07
+M_tn5 net5 net0 net4 VPW nmos_5p0 W=3.95e-07 L=6e-07
+M_tn0 VSS RN net5 VPW nmos_5p0 W=3.95e-07 L=6e-07
+M_tn6 net0 net3 VSS VPW nmos_5p0 W=4.65e-07 L=6e-07
+M_tn4 net6 net0 VSS VPW nmos_5p0 W=4.65e-07 L=6e-07
+M_tn1 Q net6 VSS VPW nmos_5p0 W=8.2e-07 L=6e-07
+M_tp2 net7 E VDD VNW pmos_5p0 W=9.25e-07 L=5e-07
+M_tp8 VDD RN net3 VNW pmos_5p0 W=6.3e-07 L=5e-07
+M_tp6 net8 D VDD VNW pmos_5p0 W=6.3e-07 L=5e-07
+M_tp5 net3 net7 net8 VNW pmos_5p0 W=6.3e-07 L=5e-07
+M_tp4 net9 E net3 VNW pmos_5p0 W=6.3e-07 L=5e-07
+M_tp3 net9 net0 VDD VNW pmos_5p0 W=6.3e-07 L=5e-07
+M_tp9 net0 net3 VDD VNW pmos_5p0 W=9.25e-07 L=5e-07
+M_tp7 net6 net0 VDD VNW pmos_5p0 W=9.25e-07 L=5e-07
+M_tp0 Q net6 VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+.ENDS

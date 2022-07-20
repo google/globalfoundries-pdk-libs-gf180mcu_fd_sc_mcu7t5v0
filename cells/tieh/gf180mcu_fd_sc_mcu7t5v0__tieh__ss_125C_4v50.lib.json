@@ -1,0 +1,25 @@
+{
+    "cell gf180mcu_fd_sc_mcu7t5v0__tieh": {
+        "area": "8.780800",
+        "leakage_power ": {
+            "related_pg_pin": "VDD",
+            "value": "0.00050391"
+        },
+        "pg_pin VDD": {
+            "voltage_name": "VDD",
+            "pg_type": "primary_power"
+        },
+        "pg_pin VSS": {
+            "voltage_name": "VSS",
+            "pg_type": "primary_ground"
+        },
+        "pin Z": {
+            "direction": "output",
+            "function": "1",
+            "max_capacitance": "0.2677",
+            "max_transition": "7",
+            "output_voltage": "default",
+            "related_power_pin": "VDD"
+        }
+    }
+}

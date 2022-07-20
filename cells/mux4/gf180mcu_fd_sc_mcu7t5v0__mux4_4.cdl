@@ -1,0 +1,48 @@
+* Copyright 2022 GlobalFoundries PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+
+.SUBCKT gf180mcu_fd_sc_mcu7t5v0__mux4_4 I0 I1 I2 I3 S0 S1 Z VDD VNW VPW VSS
+M_MN5 int01 I2 VSS VPW nmos_5p0 W=3.8e-07 L=6e-07
+M_MN9 int02 sel1_n int01 VPW nmos_5p0 W=3.8e-07 L=6e-07
+M_MN10 int07 S0 int02 VPW nmos_5p0 W=3.8e-07 L=6e-07
+M_MN6 VSS I3 int07 VPW nmos_5p0 W=3.8e-07 L=6e-07
+M_instance_22 Z int03 VSS VPW nmos_5p0 W=3.8e-07 L=6e-07
+M_instance_22_11 Z int03 VSS VPW nmos_5p0 W=3.8e-07 L=6e-07
+M_instance_22_18 Z int03 VSS VPW nmos_5p0 W=3.8e-07 L=6e-07
+M_instance_22_11_19 Z int03 VSS VPW nmos_5p0 W=3.8e-07 L=6e-07
+M_MN12 int03 S1 int02 VPW nmos_5p0 W=3.65e-07 L=6e-07
+M_MN11 int04 sel2_n int03 VPW nmos_5p0 W=3.65e-07 L=6e-07
+M_MN2 VSS S1 sel2_n VPW nmos_5p0 W=3.65e-07 L=6e-07
+M_MN4 int06 I1 VSS VPW nmos_5p0 W=3.65e-07 L=6e-07
+M_MN8 int04 S0 int06 VPW nmos_5p0 W=3.65e-07 L=6e-07
+M_MN7 int05 sel1_n int04 VPW nmos_5p0 W=3.65e-07 L=6e-07
+M_MN3 VSS I0 int05 VPW nmos_5p0 W=3.65e-07 L=6e-07
+M_MN1 sel1_n S0 VSS VPW nmos_5p0 W=3.65e-07 L=6e-07
+M_MP2 int01 I2 VDD VNW pmos_5p0 W=7.8e-07 L=5e-07
+M_MP9 int02 S0 int01 VNW pmos_5p0 W=7.8e-07 L=5e-07
+M_MP10 int07 sel1_n int02 VNW pmos_5p0 W=7.8e-07 L=5e-07
+M_MP6 VDD I3 int07 VNW pmos_5p0 W=7.8e-07 L=5e-07
+M_instance_1 Z int03 VDD VNW pmos_5p0 W=7.8e-07 L=5e-07
+M_instance_1_6 Z int03 VDD VNW pmos_5p0 W=7.8e-07 L=5e-07
+M_instance_1_9 Z int03 VDD VNW pmos_5p0 W=7.8e-07 L=5e-07
+M_instance_1_6_3 Z int03 VDD VNW pmos_5p0 W=7.8e-07 L=5e-07
+M_MP12 int03 sel2_n int02 VNW pmos_5p0 W=5.95e-07 L=5e-07
+M_MP11 int04 S1 int03 VNW pmos_5p0 W=5.95e-07 L=5e-07
+M_MP5 VDD S1 sel2_n VNW pmos_5p0 W=5.95e-07 L=5e-07
+M_MP4 int06 I1 VDD VNW pmos_5p0 W=5.95e-07 L=5e-07
+M_MP8 int04 sel1_n int06 VNW pmos_5p0 W=5.95e-07 L=5e-07
+M_MP7 int05 S0 int04 VNW pmos_5p0 W=5.95e-07 L=5e-07
+M_MP3 VDD I0 int05 VNW pmos_5p0 W=5.95e-07 L=5e-07
+M_MP1 sel1_n S0 VDD VNW pmos_5p0 W=5.95e-07 L=5e-07
+.ENDS

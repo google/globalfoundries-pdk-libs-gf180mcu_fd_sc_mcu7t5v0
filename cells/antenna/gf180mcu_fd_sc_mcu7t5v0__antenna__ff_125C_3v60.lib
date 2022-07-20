@@ -1,0 +1,90 @@
+/*
+ * Copyright 2022 GlobalFoundries PDK Authors
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+  cell(gf180mcu_fd_sc_mcu7t5v0__antenna) {
+    area : 4.390400 ;
+
+    leakage_power() {
+      related_pg_pin : "VDD" ;
+      when : "!I" ;
+      value : "0.0005976" ;
+    }
+
+    leakage_power() {
+      related_pg_pin : "VSS" ;
+      when : "!I" ;
+      value : "0.000584352" ;
+    }
+
+    leakage_power() {
+      related_pg_pin : "VDD" ;
+      when : "I" ;
+      value : "0.000584352" ;
+    }
+
+    leakage_power() {
+      related_pg_pin : "VSS" ;
+      when : "I" ;
+      value : "0.000597816" ;
+    }
+
+    leakage_power() {
+      related_pg_pin : "VDD" ;
+      value : "0.000584352" ;
+    }
+
+    leakage_power() {
+      related_pg_pin : "VSS" ;
+      value : "0.000597816" ;
+    }
+
+    pg_pin(VDD) {
+      voltage_name : VDD ;
+      pg_type : primary_power ;
+    }
+
+    pg_pin(VSS) {
+      voltage_name : VSS ;
+      pg_type : primary_ground ;
+    }
+
+    pin(I) {
+      capacitance : 0.001087 ;
+      direction : input ;
+      driver_waveform_rise : driver_waveform_default_rise ;
+      driver_waveform_fall : driver_waveform_default_fall ;
+      input_voltage : default ;
+      max_transition : 7.4 ;
+      related_ground_pin : VSS ;
+      related_power_pin : VDD ;
+
+      internal_power() {
+
+        fall_power(pwr_tin_10) {
+          index_1("0.02, 0.07094, 0.2497, 0.5912, 1.123, 1.87, 2.852, 4.089, 5.6, 7.4");
+          values("0.00466, 0.004665, 0.00466, 0.004651, 0.004656, 0.004668, 0.004686, \
+                  0.004662, 0.004685, 0.004684");
+        }
+
+        rise_power(pwr_tin_10) {
+          index_1("0.02, 0.07094, 0.2497, 0.5912, 1.123, 1.87, 2.852, 4.089, 5.6, 7.4");
+          values("-0.004658, -0.004659, -0.004669, -0.004667, -0.004665, -0.004666, \
+                  -0.004686, -0.004667, -0.004685, -0.004681");
+        }
+      }
+    }
+  }
+

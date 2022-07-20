@@ -1,0 +1,107 @@
+{
+    "cell gf180mcu_fd_sc_mcu7t5v0__antenna": {
+        "area": "4.390400",
+        "leakage_power ": [
+            {
+                "related_pg_pin": "VDD",
+                "when": "!I",
+                "value": "3.888e-05"
+            },
+            {
+                "related_pg_pin": "VSS",
+                "when": "!I",
+                "value": "2.592e-05"
+            },
+            {
+                "related_pg_pin": "VDD",
+                "when": "I",
+                "value": "2.592e-05"
+            },
+            {
+                "related_pg_pin": "VSS",
+                "when": "I",
+                "value": "3.888e-05"
+            },
+            {
+                "related_pg_pin": "VDD",
+                "value": "2.592e-05"
+            },
+            {
+                "related_pg_pin": "VSS",
+                "value": "3.888e-05"
+            }
+        ],
+        "pg_pin VDD": {
+            "voltage_name": "VDD",
+            "pg_type": "primary_power"
+        },
+        "pg_pin VSS": {
+            "voltage_name": "VSS",
+            "pg_type": "primary_ground"
+        },
+        "pin I": {
+            "capacitance": "0.0009873",
+            "direction": "input",
+            "driver_waveform_rise": "driver_waveform_default_rise",
+            "driver_waveform_fall": "driver_waveform_default_fall",
+            "input_voltage": "default",
+            "max_transition": "5.2",
+            "related_ground_pin": "VSS",
+            "related_power_pin": "VDD",
+            "internal_power ": {
+                "fall_power pwr_tin_10": {
+                    "index_1": [
+                        0.02,
+                        0.05575,
+                        0.1813,
+                        0.4209,
+                        0.7943,
+                        1.318,
+                        2.008,
+                        2.876,
+                        3.936,
+                        5.2
+                    ],
+                    "values": [
+                        0.004278,
+                        0.004277,
+                        0.004273,
+                        0.004296,
+                        0.004286,
+                        0.004291,
+                        0.004285,
+                        0.0043,
+                        0.004301,
+                        0.004303
+                    ]
+                },
+                "rise_power pwr_tin_10": {
+                    "index_1": [
+                        0.02,
+                        0.05575,
+                        0.1813,
+                        0.4209,
+                        0.7943,
+                        1.318,
+                        2.008,
+                        2.876,
+                        3.936,
+                        5.2
+                    ],
+                    "values": [
+                        -0.004276,
+                        -0.004288,
+                        -0.004271,
+                        -0.004297,
+                        -0.004287,
+                        -0.004294,
+                        -0.004288,
+                        -0.0043,
+                        -0.004302,
+                        -0.004305
+                    ]
+                }
+            }
+        }
+    }
+}

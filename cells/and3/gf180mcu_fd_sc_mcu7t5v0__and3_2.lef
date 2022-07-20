@@ -1,0 +1,76 @@
+# Copyright 2022 GlobalFoundries PDK Authors
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+MACRO gf180mcu_fd_sc_mcu7t5v0__and3_2
+  CLASS core ;
+  FOREIGN gf180mcu_fd_sc_mcu7t5v0__and3_2 0.0 0.0 ;
+  ORIGIN 0 0 ;
+  SYMMETRY X Y ;
+  SITE GF018hv5v_mcu_sc7 ;
+  SIZE 6.16 BY 3.92 ;
+  PIN A1
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 0.9815 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0.66 1.16 1.02 1.16 1.02 2.29 0.66 2.29  ;
+    END
+  END A1
+  PIN A2
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 0.9815 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 1.78 1.16 2.14 1.16 2.14 2.29 1.78 2.29  ;
+    END
+  END A2
+  PIN A3
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 0.9815 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 2.865 1.16 3.26 1.16 3.26 2.29 2.865 2.29  ;
+    END
+  END A3
+  PIN Z
+    DIRECTION OUTPUT ;
+    ANTENNADIFFAREA 1.0556 ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 4.48 0.65 4.95 0.65 4.95 3.38 4.48 3.38  ;
+    END
+  END Z
+  PIN VDD
+    DIRECTION INOUT ;
+    USE power ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0 3.62 1.32 3.62 1.32 3.16 1.55 3.16 1.55 3.62 3.36 3.62 3.36 3.16 3.59 3.16 3.59 3.62 4.25 3.62 5.58 3.62 5.58 2.53 5.81 2.53 5.81 3.62 6.16 3.62 6.16 4.22 4.25 4.22 0 4.22  ;
+    END
+  END VDD
+  PIN VSS
+    DIRECTION INOUT ;
+    USE ground ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER METAL1 ;
+        POLYGON 0 -0.3 6.16 -0.3 6.16 0.3 5.83 0.3 5.83 0.765 5.6 0.765 5.6 0.3 3.59 0.3 3.59 0.765 3.36 0.765 3.36 0.3 0 0.3  ;
+    END
+  END VSS
+  OBS
+      LAYER METAL1 ;
+        POLYGON 0.245 2.655 1.285 2.655 1.285 0.865 0.235 0.865 0.235 0.635 1.515 0.635 1.515 2.655 4.02 2.655 4.02 1.445 4.25 1.445 4.25 2.91 0.585 2.91 0.585 3.355 0.245 3.355  ;
+  END
+END gf180mcu_fd_sc_mcu7t5v0__and3_2

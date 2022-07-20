@@ -1,0 +1,74 @@
+* Copyright 2022 GlobalFoundries PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+
+.SUBCKT gf180mcu_fd_sc_mcu7t5v0__clkbuf_20 I Z VDD VNW VPW VSS
+M_i_2_0 Z_neg I VSS VPW nmos_5p0 W=3.8e-07 L=6e-07
+M_i_2_1 VSS I Z_neg VPW nmos_5p0 W=3.8e-07 L=6e-07
+M_i_2_2 Z_neg I VSS VPW nmos_5p0 W=3.8e-07 L=6e-07
+M_i_2_3 VSS I Z_neg VPW nmos_5p0 W=3.8e-07 L=6e-07
+M_i_2_4 Z_neg I VSS VPW nmos_5p0 W=3.8e-07 L=6e-07
+M_i_2_5 VSS I Z_neg VPW nmos_5p0 W=3.8e-07 L=6e-07
+M_i_2_6 Z_neg I VSS VPW nmos_5p0 W=3.8e-07 L=6e-07
+M_i_2_7 VSS I Z_neg VPW nmos_5p0 W=3.8e-07 L=6e-07
+M_i_0_0 Z Z_neg VSS VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_1 VSS Z_neg Z VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_2 Z Z_neg VSS VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_3 VSS Z_neg Z VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_4 Z Z_neg VSS VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_5 VSS Z_neg Z VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_6 Z Z_neg VSS VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_7 VSS Z_neg Z VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_8 Z Z_neg VSS VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_9 VSS Z_neg Z VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_10 Z Z_neg VSS VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_11 VSS Z_neg Z VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_12 Z Z_neg VSS VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_13 VSS Z_neg Z VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_14 Z Z_neg VSS VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_15 VSS Z_neg Z VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_16 Z Z_neg VSS VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_17 VSS Z_neg Z VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_18 Z Z_neg VSS VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_0_19 VSS Z_neg Z VPW nmos_5p0 W=4.7e-07 L=6e-07
+M_i_3_0 Z_neg I VDD VNW pmos_5p0 W=0.82e-06 L=5e-07
+M_i_3_1 VDD I Z_neg VNW pmos_5p0 W=0.82e-06 L=5e-07
+M_i_3_2 Z_neg I VDD VNW pmos_5p0 W=0.82e-06 L=5e-07
+M_i_3_3 VDD I Z_neg VNW pmos_5p0 W=0.82e-06 L=5e-07
+M_i_3_4 Z_neg I VDD VNW pmos_5p0 W=0.82e-06 L=5e-07
+M_i_3_5 VDD I Z_neg VNW pmos_5p0 W=0.82e-06 L=5e-07
+M_i_3_6 Z_neg I VDD VNW pmos_5p0 W=0.82e-06 L=5e-07
+M_i_3_7 VDD I Z_neg VNW pmos_5p0 W=0.82e-06 L=5e-07
+M_i_3_8 Z_neg I VDD VNW pmos_5p0 W=0.82e-06 L=5e-07
+M_i_3_9 VDD I Z_neg VNW pmos_5p0 W=0.82e-06 L=5e-07
+M_i_1_0 Z Z_neg VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_1 VDD Z_neg Z VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_2 Z Z_neg VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_3 VDD Z_neg Z VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_4 Z Z_neg VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_5 VDD Z_neg Z VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_6 Z Z_neg VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_7 VDD Z_neg Z VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_8 Z Z_neg VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_9 VDD Z_neg Z VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_10 Z Z_neg VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_11 VDD Z_neg Z VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_12 Z Z_neg VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_13 VDD Z_neg Z VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_14 Z Z_neg VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_15 VDD Z_neg Z VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_16 Z Z_neg VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_17 VDD Z_neg Z VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_18 Z Z_neg VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_1_19 VDD Z_neg Z VNW pmos_5p0 W=1.22e-06 L=5e-07
+.ENDS

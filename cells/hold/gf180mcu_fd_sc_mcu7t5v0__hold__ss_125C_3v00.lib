@@ -1,0 +1,75 @@
+/*
+ * Copyright 2022 GlobalFoundries PDK Authors
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+  cell(gf180mcu_fd_sc_mcu7t5v0__hold) {
+    area : 19.756800 ;
+
+    leakage_power() {
+      related_pg_pin : "VDD" ;
+      when : "!Z" ;
+      value : "0.00038373" ;
+    }
+
+    leakage_power() {
+      related_pg_pin : "VDD" ;
+      when : "Z" ;
+      value : "0.00038373" ;
+    }
+
+    leakage_power() {
+      related_pg_pin : "VDD" ;
+      value : "0.00038373" ;
+    }
+
+    pg_pin(VDD) {
+      voltage_name : VDD ;
+      pg_type : primary_power ;
+    }
+
+    pg_pin(VSS) {
+      voltage_name : VSS ;
+      pg_type : primary_ground ;
+    }
+
+    pin(Z) {
+      capacitance : 0.02274 ;
+      direction : inout ;
+      driver_type : bus_hold ;
+      function : "Z" ;
+      input_voltage : default ;
+      max_transition : 15.6 ;
+      output_voltage : default ;
+      related_ground_pin : VSS ;
+      related_power_pin : VDD ;
+      three_state : "1" ;
+
+      internal_power() {
+
+        fall_power(pwr_tin_10) {
+          index_1("0.02, 0.1275, 0.505, 1.226, 2.349, 3.925, 5.998, 8.61, 11.8, 15.6");
+          values("0.07091, 0.06918, 0.07142, 0.08024, 0.09586, 0.1187, 0.1496, 0.1891, \
+                  0.2378, 0.2961");
+        }
+
+        rise_power(pwr_tin_10) {
+          index_1("0.02, 0.1275, 0.505, 1.226, 2.349, 3.925, 5.998, 8.61, 11.8, 15.6");
+          values("0.001911, 0.000696, 0.0005905, 0.006444, 0.0198, 0.04117, 0.0711, \
+                  0.1099, 0.1582, 0.2164");
+        }
+      }
+    }
+  }
+

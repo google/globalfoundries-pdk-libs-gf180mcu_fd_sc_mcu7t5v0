@@ -1,0 +1,46 @@
+* Copyright 2022 GlobalFoundries PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+
+.SUBCKT gf180mcu_fd_sc_mcu7t5v0__icgtn_4 CLKN E TE Q VDD VNW VPW VSS
+M_MU19 VSS TE net50 VPW nmos_5p0 W=3.95e-07 L=6e-07
+M_MU20 net50 E VSS VPW nmos_5p0 W=3.95e-07 L=6e-07
+M_MU75_M_u2 Q d3 VSS VPW nmos_5p0 W=6.3e-07 L=6e-07
+M_MU75_M_u2_19 Q d3 VSS VPW nmos_5p0 W=6.3e-07 L=6e-07
+M_MU75_M_u2_33 Q d3 VSS VPW nmos_5p0 W=6.3e-07 L=6e-07
+M_MU75_M_u2_19_5 Q d3 VSS VPW nmos_5p0 W=6.3e-07 L=6e-07
+M_MI81 net58 TE VDD VNW pmos_5p0 W=9.25e-07 L=5e-07
+M_MU17 net61 E net58 VNW pmos_5p0 W=9.25e-07 L=5e-07
+M_MU81_M_u3 VDD CLKN CP VNW pmos_5p0 W=1.155e-06 L=5e-07
+M_MI1_M_u2 d3 CLKN XI1-net8 VNW pmos_5p0 W=1.155e-06 L=5e-07
+M_MU75_M_u3 Q d3 VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_MU75_M_u3_1 Q d3 VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_MU75_M_u3_2 Q d3 VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_MU75_M_u3_1_35 Q d3 VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_MU82_M_u2 NCP CP VSS VPW nmos_5p0 W=3.95e-07 L=6e-07
+M_MU81_M_u2 VSS CLKN CP VPW nmos_5p0 W=4.75e-07 L=6e-07
+M_MI1_M_u4 VSS CLKN d3 VPW nmos_5p0 W=4.75e-07 L=6e-07
+M_MU16 net53 CP net61 VNW pmos_5p0 W=7.65e-07 L=5e-07
+M_MI90 net067 NCP net53 VNW pmos_5p0 W=7.65e-07 L=5e-07
+M_MI88 VDD QD net067 VNW pmos_5p0 W=7.65e-07 L=5e-07
+M_MU82_M_u3 NCP CP VDD VNW pmos_5p0 W=7.65e-07 L=5e-07
+M_MI95_M_u3 VDD net53 QD VNW pmos_5p0 W=7.65e-07 L=5e-07
+M_MI1_M_u1 XI1-net8 net36 VDD VNW pmos_5p0 W=1.155e-06 L=5e-07
+M_MI82 net53 NCP net50 VPW nmos_5p0 W=3.95e-07 L=6e-07
+M_MI91 net038 CP net53 VPW nmos_5p0 W=3.95e-07 L=6e-07
+M_MI92 VSS QD net038 VPW nmos_5p0 W=3.95e-07 L=6e-07
+M_MI95_M_u2 VSS net53 QD VPW nmos_5p0 W=3.95e-07 L=6e-07
+M_MI89_M_u2 net36 QD VSS VPW nmos_5p0 W=3.95e-07 L=6e-07
+M_MI1_M_u3 d3 net36 VSS VPW nmos_5p0 W=4.75e-07 L=6e-07
+M_MI89_M_u3 net36 QD VDD VNW pmos_5p0 W=7.65e-07 L=5e-07
+.ENDS

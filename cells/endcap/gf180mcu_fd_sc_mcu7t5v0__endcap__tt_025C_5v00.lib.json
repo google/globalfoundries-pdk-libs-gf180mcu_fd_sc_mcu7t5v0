@@ -1,0 +1,17 @@
+{
+    "cell gf180mcu_fd_sc_mcu7t5v0__endcap": {
+        "area": "4.390400",
+        "leakage_power ": {
+            "related_pg_pin": "VDD",
+            "value": "5e-05"
+        },
+        "pg_pin VDD": {
+            "voltage_name": "VDD",
+            "pg_type": "primary_power"
+        },
+        "pg_pin VSS": {
+            "voltage_name": "VSS",
+            "pg_type": "primary_ground"
+        }
+    }
+}

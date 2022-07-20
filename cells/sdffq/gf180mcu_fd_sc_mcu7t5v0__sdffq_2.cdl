@@ -1,0 +1,50 @@
+* Copyright 2022 GlobalFoundries PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+
+.SUBCKT gf180mcu_fd_sc_mcu7t5v0__sdffq_2 D SE SI CLK Q VDD VNW VPW VSS
+M_tn14 net8 SE VSS VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn12 net12 SI VSS VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn13 net12 SE net6 VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn8 net6 net8 net9n VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn10 VSS D net9n VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn16 ncki CLK VSS VPW nmos_5p0 W=4.65e-07 L=6e-07
+M_tn9 cki ncki VSS VPW nmos_5p0 W=4.65e-07 L=6e-07
+M_tn11 net6 ncki net5 VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn0 net5 cki net11 VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn1 VSS net10 net11 VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn15 net10 net5 VSS VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn2 net0 cki net10 VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn3 net7 ncki net0 VPW nmos_5p0 W=3.6e-07 L=6e-07
+M_tn4 VSS net1 net7 VPW nmos_5p0 W=8.15e-07 L=6e-07
+M_tn5 net1 net0 VSS VPW nmos_5p0 W=8.15e-07 L=6e-07
+M_tn6_6 Q net1 VSS VPW nmos_5p0 W=8.15e-07 L=6e-07
+M_tn6 Q net1 VSS VPW nmos_5p0 W=8.15e-07 L=6e-07
+M_tp14 net8 SE VDD VNW pmos_5p0 W=6.3e-07 L=5e-07
+M_tp13 net3 SI VDD VNW pmos_5p0 W=6.3e-07 L=5e-07
+M_tp12 net2 net8 net3 VNW pmos_5p0 W=6.3e-07 L=5e-07
+M_tp8 net9p SE net2 VNW pmos_5p0 W=6.3e-07 L=5e-07
+M_tp10 VDD D net9p VNW pmos_5p0 W=6.3e-07 L=5e-07
+M_tp16 ncki CLK VDD VNW pmos_5p0 W=9.2e-07 L=5e-07
+M_tp9 cki ncki VDD VNW pmos_5p0 W=8.15e-07 L=5e-07
+M_tp11 net5 cki net2 VNW pmos_5p0 W=6.3e-07 L=5e-07
+M_tp0 net4 ncki net5 VNW pmos_5p0 W=6.3e-07 L=5e-07
+M_tp1 VDD net10 net4 VNW pmos_5p0 W=6.3e-07 L=5e-07
+M_tp15 net10 net5 VDD VNW pmos_5p0 W=6.3e-07 L=5.1e-07
+M_tp7 net0 ncki net10 VNW pmos_5p0 W=6.3e-07 L=5e-07
+M_tp6 net7_p cki net0 VNW pmos_5p0 W=6.3e-07 L=5e-07
+M_tp2 VDD net1 net7_p VNW pmos_5p0 W=1.215e-06 L=5e-07
+M_tp3 net1 net0 VDD VNW pmos_5p0 W=1.215e-06 L=5e-07
+M_tp4_12 Q net1 VDD VNW pmos_5p0 W=1.215e-06 L=5e-07
+M_tp4 Q net1 VDD VNW pmos_5p0 W=1.215e-06 L=5e-07
+.ENDS
