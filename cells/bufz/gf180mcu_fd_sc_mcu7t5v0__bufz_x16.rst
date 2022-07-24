@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__bufz_x16
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__bufz_x16 layout
 
-.. include:: images.rst
+
 
 BUFZ_X16 is a tri-state buffer, 16X drive strength
 |

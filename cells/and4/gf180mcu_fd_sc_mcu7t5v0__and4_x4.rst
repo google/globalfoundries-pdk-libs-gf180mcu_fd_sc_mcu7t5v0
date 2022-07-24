@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__and4_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__and4_x4 layout
 
-.. include:: images.rst
+
 
 AND4_X4 is a 4-input AND, AND(A1,A2,A3,A4), 4X drive strength
 

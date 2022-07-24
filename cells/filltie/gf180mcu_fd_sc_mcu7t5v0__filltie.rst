@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__filltie
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__filltie layout
 
-.. include:: images.rst
+
 
 | FILLTIE is a filler with well and substrate tap
 

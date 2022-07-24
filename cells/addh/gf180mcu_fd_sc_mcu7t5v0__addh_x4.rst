@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__addh_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__addh_x4 layout
 
-.. include:: images.rst
+
 
 ADDH_X4 is a Half Adder, 4X drive strength
 

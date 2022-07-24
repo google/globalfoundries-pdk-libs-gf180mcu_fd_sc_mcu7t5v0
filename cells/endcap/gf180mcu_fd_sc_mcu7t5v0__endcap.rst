@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__endcap
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__endcap layout
 
-.. include:: images.rst
+
 
 ENDCAP is a row end closure cell
 

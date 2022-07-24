@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__tieh
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__tieh layout
 
-.. include:: images.rst
+
 
 TIEH is a high level generator
 

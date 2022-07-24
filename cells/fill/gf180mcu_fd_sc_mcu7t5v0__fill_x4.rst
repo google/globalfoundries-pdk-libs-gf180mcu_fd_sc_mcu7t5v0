@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__fill_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__fill_x4 layout
 
-.. include:: images.rst
+
 
 | FILL_X4 is a filler whose cell width is 2.24um
 

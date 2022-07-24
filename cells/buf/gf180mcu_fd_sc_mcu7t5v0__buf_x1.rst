@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__buf_x1
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__buf_x1 layout
 
-.. include:: images.rst
+
 
 BUF_X1 is a buffer, 1X drive strength
 

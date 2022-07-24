@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__nor2_x1
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__nor2_x1 layout
 
-.. include:: images.rst
+
 
 NOR2_X1 is a 2-input NOR, NOR(A1,A2), 1X drive strength
 

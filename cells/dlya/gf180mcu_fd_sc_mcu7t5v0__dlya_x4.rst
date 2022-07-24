@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__dlya_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__dlya_x4 layout
 
-.. include:: images.rst
+
 
 DLYA_X4 is a 2 buffer delay cell, 4X drive strength
 

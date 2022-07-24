@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__latsnq_x1
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__latsnq_x1 layout
 
-.. include:: images.rst
+
 
 LATSNQ_X1 is a positive D-latch, active low set, 1X drive strength
 

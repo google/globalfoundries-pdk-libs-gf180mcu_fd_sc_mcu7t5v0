@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__inv_x2
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__inv_x2 layout
 
-.. include:: images.rst
+
 
 INV_X2 is an inverter, 2X drive strength
 

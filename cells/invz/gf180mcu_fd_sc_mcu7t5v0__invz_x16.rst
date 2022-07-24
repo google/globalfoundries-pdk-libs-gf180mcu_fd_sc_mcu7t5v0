@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__invz_x16
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__invz_x16 layout
 
-.. include:: images.rst
+
 
 INVZ_X16 is a tri-state inverter, 16X drive strength
 

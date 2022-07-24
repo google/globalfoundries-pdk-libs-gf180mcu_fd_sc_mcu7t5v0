@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__sdffsnq_x1
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__sdffsnq_x1 layout
 
-.. include:: images.rst
+
 
 SDFFSNQ_X1 is a positive edge triggered scan D-type flip flop, active low set, 1X drive strength
 

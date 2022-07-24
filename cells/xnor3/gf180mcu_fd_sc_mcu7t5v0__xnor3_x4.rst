@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__xnor3_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__xnor3_x4 layout
 
-.. include:: images.rst
+
 
 XNOR3_X4 is a 3-input exclusive NOR, 4X drive strength
 

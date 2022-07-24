@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__xor2_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__xor2_x4 layout
 
-.. include:: images.rst
+
 
 XOR2_X4 is a 2-input exclusive OR, 4X drive strength
 

@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__nand3_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__nand3_x4 layout
 
-.. include:: images.rst
+
 
 NAND3_X4 is a 3-input NAND, NAND(A1,A2,A3), 4X drive strength
 

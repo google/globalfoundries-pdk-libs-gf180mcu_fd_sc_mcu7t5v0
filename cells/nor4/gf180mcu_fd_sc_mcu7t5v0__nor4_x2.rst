@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__nor4_x2
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__nor4_x2 layout
 
-.. include:: images.rst
+
 
 NOR4_X2 is a 4-input NOR, NOR(A1,A2,A3,A4), 2X drive strength
 

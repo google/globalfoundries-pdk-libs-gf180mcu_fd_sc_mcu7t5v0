@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__dlyc_x1
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__dlyc_x1 layout
 
-.. include:: images.rst
+
 
 DLYC_X1 is a 8 buffer delay cell, 1X drive strength
 

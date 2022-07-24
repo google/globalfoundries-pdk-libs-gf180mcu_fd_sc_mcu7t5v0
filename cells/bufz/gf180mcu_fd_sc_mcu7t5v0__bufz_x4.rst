@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__bufz_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__bufz_x4 layout
 
-.. include:: images.rst
+
 
 BUFZ_X4 is a tri-state buffer, 4X drive strength
 

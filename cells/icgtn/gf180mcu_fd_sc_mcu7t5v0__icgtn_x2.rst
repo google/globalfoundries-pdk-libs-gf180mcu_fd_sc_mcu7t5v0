@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__icgtn_x2
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__icgtn_x2 layout
 
-.. include:: images.rst
+
 
 ICGTN_X2 is a negative-edge triggered clock-gating latch, 2X drive strength
 

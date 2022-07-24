@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__icgtn_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__icgtn_x4 layout
 
-.. include:: images.rst
+
 
 ICGTN_X4 is a negative-edge triggered clock-gating latch, 4X drive strength
 

@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__mux4_x2
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__mux4_x2 layout
 
-.. include:: images.rst
+
 
 MUX4_X2 is a 4-to-1 multiplexer, 2X drive strength
 |

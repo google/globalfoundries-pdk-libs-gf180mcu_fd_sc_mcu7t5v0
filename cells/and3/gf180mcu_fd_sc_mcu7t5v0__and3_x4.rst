@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__and3_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__and3_x4 layout
 
-.. include:: images.rst
+
 
 AND3_X4 is a 3-input AND, AND(A1,A2,A3), 4X drive strength
 

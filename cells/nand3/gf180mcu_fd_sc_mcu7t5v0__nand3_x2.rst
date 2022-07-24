@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__nand3_x2
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__nand3_x2 layout
 
-.. include:: images.rst
+
 
 NAND3_X2 is a 3-input NAND, NAND(A1,A2,A3), 2X drive strength
 

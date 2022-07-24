@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__inv_x8
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__inv_x8 layout
 
-.. include:: images.rst
+
 
 INV_X8 is an inverter, 8X drive strength
 

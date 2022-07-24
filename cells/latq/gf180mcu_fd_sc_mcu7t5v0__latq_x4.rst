@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__latq_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__latq_x4 layout
 
-.. include:: images.rst
+
 
 LATQ_X4 is a positive D-latch, 4X drive strength
 

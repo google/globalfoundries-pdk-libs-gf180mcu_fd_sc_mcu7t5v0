@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__clkinv_x12
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__clkinv_x12 layout
 
-.. include:: images.rst
+
 
 CLKINV_X12 is a clock inverter, 12X drive strength
 |

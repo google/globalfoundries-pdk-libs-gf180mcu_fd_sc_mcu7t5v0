@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__aoi222_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__aoi222_x4 layout
 
-.. include:: images.rst
+
 
 AOI222_X4 is a three 2-input AND into 3-input NOR, NOR[AND(A1,A2),AND(B1,B2),AND(C1,C2)], 4X drive strength
 

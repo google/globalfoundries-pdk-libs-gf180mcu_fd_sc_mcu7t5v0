@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__clkbuf_x20
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__clkbuf_x20 layout
 
-.. include:: images.rst
+
 
 CLKBUF_X20 is a clock buffer, 20X drive strength
 

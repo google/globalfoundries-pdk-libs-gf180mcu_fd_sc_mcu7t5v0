@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__nand2_x1
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__nand2_x1 layout
 
-.. include:: images.rst
+
 
 NAND2_X1 is a 2-input NAND, NAND(A1,A2), 1X drive strength
 

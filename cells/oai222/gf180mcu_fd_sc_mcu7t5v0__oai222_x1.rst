@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__oai222_x1
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__oai222_x1 layout
 
-.. include:: images.rst
+
 
 OAI222_X1 is a three 2-input OR into 3-input NAND, NAND[OR(A1,A2),OR(B1,B2),OR(C1,C2)], 1X drive strength
 

@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__bufz_x3
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__bufz_x3 layout
 
-.. include:: images.rst
+
 
 BUFZ_X3 is a tri-state buffer, 3X drive strength
 

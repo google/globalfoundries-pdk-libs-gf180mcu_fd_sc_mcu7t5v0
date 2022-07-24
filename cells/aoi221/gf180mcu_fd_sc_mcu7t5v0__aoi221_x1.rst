@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__aoi221_x1
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__aoi221_x1 layout
 
-.. include:: images.rst
+
 
 AOI221_X1 is a two 2-input AND into 3-input NOR, NOR[AND(A1,A2),AND(B1,B2),C], 1X drive strength
 

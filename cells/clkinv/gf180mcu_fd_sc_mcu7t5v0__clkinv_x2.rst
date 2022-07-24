@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__clkinv_x2
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__clkinv_x2 layout
 
-.. include:: images.rst
+
 
 CLKINV_X2 is a clock inverter, 2X drive strength
 

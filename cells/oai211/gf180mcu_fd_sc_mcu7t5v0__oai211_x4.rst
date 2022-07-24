@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__oai211_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__oai211_x4 layout
 
-.. include:: images.rst
+
 
 OAI211_X4 is a 2-input OR into 3-input NAND, NAND[OR(A1,A2),B,C], 4X drive strength
 

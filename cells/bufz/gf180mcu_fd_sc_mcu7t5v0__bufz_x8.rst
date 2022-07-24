@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__bufz_x8
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__bufz_x8 layout
 
-.. include:: images.rst
+
 
 BUFZ_X8 is a tri-state buffer, 8X drive strength
 

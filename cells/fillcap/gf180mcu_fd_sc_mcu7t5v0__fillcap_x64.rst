@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__fillcap_x64
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__fillcap_x64 layout
 
-.. include:: images.rst
+
 
 | FILLCAP_X64 is a filler whose cell width is 35.84um with decoupling cap between VDD and VSS
 

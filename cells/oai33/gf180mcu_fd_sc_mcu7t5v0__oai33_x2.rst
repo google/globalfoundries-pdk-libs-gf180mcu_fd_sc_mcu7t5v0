@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__oai33_x2
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__oai33_x2 layout
 
-.. include:: images.rst
+
 
 OAI33_X2 is a two 3-input OR into 2-input NAND, NAND[OR(A1,A2,A3),OR(B1,B2,B3], 2X drive strength
 

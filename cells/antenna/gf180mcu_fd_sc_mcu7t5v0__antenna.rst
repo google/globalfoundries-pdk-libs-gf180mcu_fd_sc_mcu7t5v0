@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__antenna
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__antenna layout
 
-.. include:: images.rst
+
 
 ANTENNA is an antenna cell
 

@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_x2
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_x2 layout
 
-.. include:: images.rst
+
 
 DFFNRSNQ_X2 is a negative edge triggered D-type flip flop, active low set/reset and 2X drive strength
 

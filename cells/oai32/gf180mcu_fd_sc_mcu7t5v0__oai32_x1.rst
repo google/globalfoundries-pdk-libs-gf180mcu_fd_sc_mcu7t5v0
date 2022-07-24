@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__oai32_x1
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__oai32_x1 layout
 
-.. include:: images.rst
+
 
 OAI32_X1 is a 3-input OR and a 2-input OR into 2-input NAND, NAND[OR(A1,A2,A3),OR(B1,B2)], 1X drive strength
 

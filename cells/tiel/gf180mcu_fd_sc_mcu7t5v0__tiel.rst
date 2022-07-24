@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__tiel
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__tiel layout
 
-.. include:: images.rst
+
 
 TIEL is a low level generator
 

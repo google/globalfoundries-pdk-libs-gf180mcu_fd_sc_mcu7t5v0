@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_x4 layout
 
-.. include:: images.rst
+
 
 DFFNRSNQ_X4 is a negative edge triggered D-type flip flop, active low set/reset and 4X drive strength
 

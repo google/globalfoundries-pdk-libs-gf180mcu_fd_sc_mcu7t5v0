@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__hold
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__hold layout
 
-.. include:: images.rst
+
 
 HOLD is a state holder cell
 

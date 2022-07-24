@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__dffq_x1
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__dffq_x1 layout
 
-.. include:: images.rst
+
 
 DFFQ_X1 is a poistive edge triggered D-type flip flop, 1X drive strength
 

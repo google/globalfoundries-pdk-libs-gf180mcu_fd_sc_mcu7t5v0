@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__oai31_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__oai31_x4 layout
 
-.. include:: images.rst
+
 
 OAI31_X4 is a 3-input OR into 2-input NAND, NAND[OR(A1,A2,A3),B], 4X drive strength
 

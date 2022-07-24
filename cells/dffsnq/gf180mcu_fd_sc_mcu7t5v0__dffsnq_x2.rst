@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__dffsnq_x2
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__dffsnq_x2 layout
 
-.. include:: images.rst
+
 
 DFFSNQ_X2 is a positive edge triggered D-type flip flop, active low set, 2X drive strength
 

@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__inv_x3
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__inv_x3 layout
 
-.. include:: images.rst
+
 
 INV_X3 is an inverter, 3X drive strength
 

@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__fill_x1
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__fill_x1 layout
 
-.. include:: images.rst
+
 
 | FILL_X1 is a filler whose cell width is 0.56um
 

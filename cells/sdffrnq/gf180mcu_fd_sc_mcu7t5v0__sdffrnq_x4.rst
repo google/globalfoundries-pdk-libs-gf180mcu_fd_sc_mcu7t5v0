@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__sdffrnq_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__sdffrnq_x4 layout
 
-.. include:: images.rst
+
 
 SDFFRNQ_X4 is a positive edge triggered scan D-type flip flop, active low reset, 4X drive strength
 

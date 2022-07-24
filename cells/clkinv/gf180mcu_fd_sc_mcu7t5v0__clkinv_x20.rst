@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__clkinv_x20
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__clkinv_x20 layout
 
-.. include:: images.rst
+
 
 CLKINV_X20 is a clock inverter, 20X drive strength
 |

@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__inv_x1
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__inv_x1 layout
 
-.. include:: images.rst
+
 
 INV_X1 is an inverter, 1X drive strength
 

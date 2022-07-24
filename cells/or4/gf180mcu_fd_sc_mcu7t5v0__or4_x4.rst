@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__or4_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__or4_x4 layout
 
-.. include:: images.rst
+
 
 OR4_X4 is a 4-input OR(A1,A2,A3,A4), 4X drive strength
 

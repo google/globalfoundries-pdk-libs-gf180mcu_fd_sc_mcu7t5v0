@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__inv_x12
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__inv_x12 layout
 
-.. include:: images.rst
+
 
 INV_X12 is an inverter, 12X drive strength
 

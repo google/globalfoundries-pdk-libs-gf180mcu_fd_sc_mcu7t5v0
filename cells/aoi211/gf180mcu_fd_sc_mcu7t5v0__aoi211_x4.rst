@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__aoi211_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__aoi211_x4 layout
 
-.. include:: images.rst
+
 
 AOI211_X4 is a 2-input AND into 3-input NOR, NOR[AND(A1,A2),B,C], 4X drive strength
 

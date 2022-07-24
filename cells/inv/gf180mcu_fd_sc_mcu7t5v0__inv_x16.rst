@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__inv_x16
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__inv_x16 layout
 
-.. include:: images.rst
+
 
 INV_X16 is an inverter, 16X drive strength
 

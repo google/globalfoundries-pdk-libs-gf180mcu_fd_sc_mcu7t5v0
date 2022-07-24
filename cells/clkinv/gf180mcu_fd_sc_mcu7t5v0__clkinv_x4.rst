@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__clkinv_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__clkinv_x4 layout
 
-.. include:: images.rst
+
 
 CLKINV_X4 is a clock inverter, 4X drive strength
 

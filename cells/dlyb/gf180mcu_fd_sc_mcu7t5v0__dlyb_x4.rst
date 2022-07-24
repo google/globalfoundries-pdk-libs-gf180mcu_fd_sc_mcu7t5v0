@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__dlyb_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__dlyb_x4 layout
 
-.. include:: images.rst
+
 
 DLYB_X4 is a 4 buffer delay cell, 4X drive strength
 

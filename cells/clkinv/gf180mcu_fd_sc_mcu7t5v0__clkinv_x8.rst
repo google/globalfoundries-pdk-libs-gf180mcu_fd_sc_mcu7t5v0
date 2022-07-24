@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__clkinv_x8
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__clkinv_x8 layout
 
-.. include:: images.rst
+
 
 CLKINV_X8 is a clock inverter, 8X drive strength
 

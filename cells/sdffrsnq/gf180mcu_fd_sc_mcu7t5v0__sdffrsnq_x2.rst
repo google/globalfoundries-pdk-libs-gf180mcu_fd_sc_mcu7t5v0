@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_x2
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_x2 layout
 
-.. include:: images.rst
+
 
 SDFFRSNQ_X2 is a positive edge triggered scan D-type flip flop, active low set/reset, 2X drive strength
 

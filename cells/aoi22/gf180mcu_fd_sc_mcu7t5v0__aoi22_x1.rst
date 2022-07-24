@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__aoi22_x1
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__aoi22_x1 layout
 
-.. include:: images.rst
+
 
 AOI22_X1 is a two 2-input AND into 2-input NOR, NOR[AND(A1,A2),AND(B1,B2)], 1X drive strength
 

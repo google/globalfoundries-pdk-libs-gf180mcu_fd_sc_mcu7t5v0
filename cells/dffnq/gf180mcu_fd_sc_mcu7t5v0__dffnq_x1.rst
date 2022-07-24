@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__dffnq_x1
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__dffnq_x1 layout
 
-.. include:: images.rst
+
 
 DFFNQ_X1 is a negative edge triggered D-type flip flop, 1X drive strength
 

@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__inv_x20
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__inv_x20 layout
 
-.. include:: images.rst
+
 
 INV_X20 is an inverter, 20X drive strength
 

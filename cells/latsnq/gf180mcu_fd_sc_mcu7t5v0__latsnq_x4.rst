@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__latsnq_x4
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__latsnq_x4 layout
 
-.. include:: images.rst
+
 
 LATSNQ_X4 is a positive D-latch, active low set, 4X drive strength
 

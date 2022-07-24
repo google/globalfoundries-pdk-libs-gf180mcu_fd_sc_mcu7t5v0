@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__oai21_x2
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__oai21_x2 layout
 
-.. include:: images.rst
+
 
 OAI21_X2 is a 2-input OR into 2-input NAND, NAND[OR(A1,A2),B], 2X drive strength
 

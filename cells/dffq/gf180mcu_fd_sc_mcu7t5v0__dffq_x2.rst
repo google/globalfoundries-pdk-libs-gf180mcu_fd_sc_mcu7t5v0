@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__dffq_x2
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__dffq_x2 layout
 
-.. include:: images.rst
+
 
 DFFQ_X2 is a poistive edge triggered D-type flip flop, 2X drive strength
 

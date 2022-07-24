@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__bufz_x12
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__bufz_x12 layout
 
-.. include:: images.rst
+
 
 BUFZ_X12 is a tri-state buffer, 12X drive strength
 |

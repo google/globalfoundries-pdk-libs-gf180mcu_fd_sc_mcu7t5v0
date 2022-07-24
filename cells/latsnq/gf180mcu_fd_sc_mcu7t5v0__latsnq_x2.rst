@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__latsnq_x2
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__latsnq_x2 layout
 
-.. include:: images.rst
+
 
 LATSNQ_X2 is a positive D-latch, active low set, 2X drive strength
 

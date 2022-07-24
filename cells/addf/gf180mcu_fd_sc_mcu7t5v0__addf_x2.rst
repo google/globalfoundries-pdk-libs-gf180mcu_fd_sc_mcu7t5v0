@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__addf_x2
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__addf_x2 layout
 
-.. include:: images.rst
+
 
 ADDF_X2 is a Full Adder, 2X drive strength
 

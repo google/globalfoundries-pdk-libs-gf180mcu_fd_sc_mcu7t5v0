@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__fill_x8
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__fill_x8 layout
 
-.. include:: images.rst
+
 
 | FILL_X8 is a filler whose cell width is 4.48um
 

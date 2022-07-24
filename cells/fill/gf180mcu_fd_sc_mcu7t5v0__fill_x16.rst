@@ -26,7 +26,7 @@ gf180mcu_fd_sc_mcu7t5v0__fill_x16
     :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__fill_x16 layout
 
-.. include:: images.rst
+
 
 | FILL_X16 is a filler whose cell width is 8.96um
 
