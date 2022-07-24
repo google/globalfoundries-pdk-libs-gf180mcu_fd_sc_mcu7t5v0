@@ -1,30 +1,30 @@
 =======================================
-gf180mcu_fd_sc_mcu7t5v0__invz_x3
+gf180mcu_fd_sc_mcu7t5v0__invz_3
 =======================================
 
-**gf180mcu_fd_sc_mcu7t5v0__invz_x3 symbol**
+**gf180mcu_fd_sc_mcu7t5v0__invz_3 symbol**
 
 .. image:: gf180mcu_fd_sc_mcu7t5v0__invz_3.symbol.png
     :height: 250px
     :width: 400 px
     :align: center
-    :alt: gf180mcu_fd_sc_mcu7t5v0__invz_x3 symbol
+    :alt: gf180mcu_fd_sc_mcu7t5v0__invz_3 symbol
 
-**gf180mcu_fd_sc_mcu7t5v0__invz_x3 schematic**
+**gf180mcu_fd_sc_mcu7t5v0__invz_3 schematic**
 
 .. image:: gf180mcu_fd_sc_mcu7t5v0__invz_3.schematic.png
     :height: 300px
     :width: 500 px
     :align: center
-    :alt: gf180mcu_fd_sc_mcu7t5v0__invz_x3 schematic
+    :alt: gf180mcu_fd_sc_mcu7t5v0__invz_3 schematic
 
-**gf180mcu_fd_sc_mcu7t5v0__invz_x3 layout**
+**gf180mcu_fd_sc_mcu7t5v0__invz_3 layout**
 
 .. image:: gf180mcu_fd_sc_mcu7t5v0__invz_3.layout.png
     :height: 400px
     :width: 700 px
     :align: center
-    :alt: gf180mcu_fd_sc_mcu7t5v0__invz_x3 layout
+    :alt: gf180mcu_fd_sc_mcu7t5v0__invz_3 layout
 
 
 

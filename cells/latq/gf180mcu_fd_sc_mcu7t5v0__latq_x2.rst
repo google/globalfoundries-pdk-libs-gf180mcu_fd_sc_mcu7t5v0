@@ -1,30 +1,30 @@
 =======================================
-gf180mcu_fd_sc_mcu7t5v0__latq_x2
+gf180mcu_fd_sc_mcu7t5v0__latq_2
 =======================================
 
-**gf180mcu_fd_sc_mcu7t5v0__latq_x2 symbol**
+**gf180mcu_fd_sc_mcu7t5v0__latq_2 symbol**
 
 .. image:: gf180mcu_fd_sc_mcu7t5v0__latq_2.symbol.png
     :height: 250px
     :width: 400 px
     :align: center
-    :alt: gf180mcu_fd_sc_mcu7t5v0__latq_x2 symbol
+    :alt: gf180mcu_fd_sc_mcu7t5v0__latq_2 symbol
 
-**gf180mcu_fd_sc_mcu7t5v0__latq_x2 schematic**
+**gf180mcu_fd_sc_mcu7t5v0__latq_2 schematic**
 
 .. image:: gf180mcu_fd_sc_mcu7t5v0__latq_2.schematic.png
     :height: 300px
     :width: 500 px
     :align: center
-    :alt: gf180mcu_fd_sc_mcu7t5v0__latq_x2 schematic
+    :alt: gf180mcu_fd_sc_mcu7t5v0__latq_2 schematic
 
-**gf180mcu_fd_sc_mcu7t5v0__latq_x2 layout**
+**gf180mcu_fd_sc_mcu7t5v0__latq_2 layout**
 
 .. image:: gf180mcu_fd_sc_mcu7t5v0__latq_2.layout.png
     :height: 400px
     :width: 700 px
     :align: center
-    :alt: gf180mcu_fd_sc_mcu7t5v0__latq_x2 layout
+    :alt: gf180mcu_fd_sc_mcu7t5v0__latq_2 layout
 
 
 
