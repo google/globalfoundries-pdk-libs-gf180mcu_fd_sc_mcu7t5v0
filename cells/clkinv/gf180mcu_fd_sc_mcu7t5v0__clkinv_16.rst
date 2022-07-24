@@ -5,25 +5,16 @@ gf180mcu_fd_sc_mcu7t5v0__clkinv_x16
 **gf180mcu_fd_sc_mcu7t5v0__clkinv_x16 symbol**
 
 .. image:: gf180mcu_fd_sc_mcu7t5v0__clkinv_16.symbol.png
-    :height: 250px
-    :width: 400 px
-    :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__clkinv_x16 symbol
 
 **gf180mcu_fd_sc_mcu7t5v0__clkinv_x16 schematic**
 
 .. image:: gf180mcu_fd_sc_mcu7t5v0__clkinv_16.schematic.png
-    :height: 300px
-    :width: 500 px
-    :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__clkinv_x16 schematic
 
 **gf180mcu_fd_sc_mcu7t5v0__clkinv_x16 layout**
 
 .. image:: gf180mcu_fd_sc_mcu7t5v0__clkinv_16.layout.png
-    :height: 400px
-    :width: 700 px
-    :align: center
     :alt: gf180mcu_fd_sc_mcu7t5v0__clkinv_x16 layout
 
 
