@@ -52,7 +52,9 @@ L     X X    L
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image209|
+
+.. image:: gf180mcu_fd_sc_mcu7t5v0__dffnrnq_4.png
+
 | CONSTRAINTS
 
 ================== =============== ============= ============

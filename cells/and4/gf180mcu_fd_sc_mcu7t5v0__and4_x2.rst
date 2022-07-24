@@ -60,7 +60,9 @@ Z              (A1&A2&A3&A4)
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image47|
+
+.. image:: gf180mcu_fd_sc_mcu7t5v0__and4_2.png
+
 | PIN CAPACITANCE (pf)
 
 ======= ======== ====================

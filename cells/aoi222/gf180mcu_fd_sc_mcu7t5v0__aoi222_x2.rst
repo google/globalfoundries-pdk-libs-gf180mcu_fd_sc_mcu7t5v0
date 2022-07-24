@@ -67,7 +67,9 @@ area          54.880000 µm\ :sup:`2`
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image86|
+
+.. image:: gf180mcu_fd_sc_mcu7t5v0__aoi222_2.png
+
 | PIN CAPACITANCE (pf)
 
 ======= ======== ====================

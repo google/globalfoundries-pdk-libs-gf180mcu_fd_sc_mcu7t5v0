@@ -57,7 +57,9 @@ Z              I
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image266|
+
+.. image:: gf180mcu_fd_sc_mcu7t5v0__dlya_1.png
+
 | PIN CAPACITANCE (pf)
 
 ======= ======== ====================

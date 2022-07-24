@@ -77,7 +77,9 @@ CO             ((A&B)|(A&CI)|(B&CI))
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image11|
+
+.. image:: gf180mcu_fd_sc_mcu7t5v0__addf_2.png
+
 | PIN CAPACITANCE (pf)
 
 ======= ======== ====================

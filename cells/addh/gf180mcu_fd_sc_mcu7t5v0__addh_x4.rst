@@ -70,7 +70,9 @@ S              (A^B)
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image23|
+
+.. image:: gf180mcu_fd_sc_mcu7t5v0__addh_4.png
+
 | PIN CAPACITANCE (pf)
 
 ======= ======== ====================

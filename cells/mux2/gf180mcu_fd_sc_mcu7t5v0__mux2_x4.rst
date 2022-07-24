@@ -58,7 +58,9 @@ Z              ((I0&(!S))|(I1&S))
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image452|
+
+.. image:: gf180mcu_fd_sc_mcu7t5v0__mux2_4.png
+
 | PIN CAPACITANCE (pf)
 
 ======= ======== ====================

@@ -40,7 +40,9 @@ area          140.492800 µm\ :sup:`2`
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image314|
+
+.. image:: gf180mcu_fd_sc_mcu7t5v0__fillcap_64.png
+
 | LEAKAGE POWER
 
 ================== ==============

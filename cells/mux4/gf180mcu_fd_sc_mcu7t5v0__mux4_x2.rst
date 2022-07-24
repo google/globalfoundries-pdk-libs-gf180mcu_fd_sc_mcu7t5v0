@@ -62,7 +62,9 @@ Z              ((I0&(!S0)&(!S1))|(I1&S0&(!S1))|(I2&(!S0)&S1)|(I3&S0&S1))
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image458|
+
+.. image:: gf180mcu_fd_sc_mcu7t5v0__mux4_2.png
+
 | PIN CAPACITANCE (pf)
 
 ======= ======== ====================

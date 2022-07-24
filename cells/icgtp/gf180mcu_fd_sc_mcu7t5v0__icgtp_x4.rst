@@ -58,7 +58,9 @@ X  X H   QD(n)   QD(n)
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image362|
+
+.. image:: gf180mcu_fd_sc_mcu7t5v0__icgtp_4.png
+
 | CONSTRAINTS
 
 ================== =============== ============= ============

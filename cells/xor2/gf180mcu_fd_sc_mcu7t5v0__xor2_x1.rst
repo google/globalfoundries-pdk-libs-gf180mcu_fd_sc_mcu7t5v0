@@ -59,7 +59,9 @@ Z              (A1^A2)
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image677|
+
+.. image:: gf180mcu_fd_sc_mcu7t5v0__xor2_1.png
+
 | PIN CAPACITANCE (pf)
 
 ======= ======== ====================

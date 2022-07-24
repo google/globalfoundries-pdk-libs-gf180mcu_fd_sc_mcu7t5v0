@@ -55,7 +55,9 @@ Z              1
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image653|
+
+.. image:: gf180mcu_fd_sc_mcu7t5v0__tieh.png
+
 | LEAKAGE POWER
 
 ================== ==============

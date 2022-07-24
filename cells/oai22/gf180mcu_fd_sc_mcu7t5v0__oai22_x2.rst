@@ -61,7 +61,9 @@ ZN             (((!A1)&(!A2))|((!B1)&(!B2)))
 
 |
 | FUNCTIONAL SCHEMATIC
-| |image557|
+
+.. image:: gf180mcu_fd_sc_mcu7t5v0__oai22_2.png
+
 | PIN CAPACITANCE (pf)
 
 ======= ======== ====================
