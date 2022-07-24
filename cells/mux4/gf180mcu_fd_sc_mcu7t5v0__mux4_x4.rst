@@ -4,7 +4,7 @@ gf180mcu_fd_sc_mcu7t5v0__mux4_x4
 
 **gf180mcu_fd_sc_mcu7t5v0__mux4_x4 symbol**
 
-.. image:: sc7_sym/MUX4_X4_sym.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__mux4_4.symbol.png
     :height: 250px
     :width: 400 px
     :align: center
@@ -12,7 +12,7 @@ gf180mcu_fd_sc_mcu7t5v0__mux4_x4
 
 **gf180mcu_fd_sc_mcu7t5v0__mux4_x4 schematic**
 
-.. image:: sc7_sch/MUX4_X4_sch.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__mux4_4.schematic.png
     :height: 300px
     :width: 500 px
     :align: center
@@ -20,7 +20,7 @@ gf180mcu_fd_sc_mcu7t5v0__mux4_x4
 
 **gf180mcu_fd_sc_mcu7t5v0__mux4_x4 layout**
 
-.. image:: sc7_lay/MUX4_X4_lay.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__mux4_4.layout.png
     :height: 400px
     :width: 700 px
     :align: center

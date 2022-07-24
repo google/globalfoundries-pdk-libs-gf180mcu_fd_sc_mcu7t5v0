@@ -4,7 +4,7 @@ gf180mcu_fd_sc_mcu7t5v0__endcap
 
 **gf180mcu_fd_sc_mcu7t5v0__endcap symbol**
 
-.. image:: sc7_sym/ENDCAP_sym.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__endcap.symbol.png
     :height: 250px
     :width: 400 px
     :align: center
@@ -12,7 +12,7 @@ gf180mcu_fd_sc_mcu7t5v0__endcap
 
 **gf180mcu_fd_sc_mcu7t5v0__endcap schematic**
 
-.. image:: sc7_sch/ENDCAP_sch.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__endcap.schematic.png
     :height: 300px
     :width: 500 px
     :align: center
@@ -20,7 +20,7 @@ gf180mcu_fd_sc_mcu7t5v0__endcap
 
 **gf180mcu_fd_sc_mcu7t5v0__endcap layout**
 
-.. image:: sc7_lay/ENDCAP_lay.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__endcap.layout.png
     :height: 400px
     :width: 700 px
     :align: center

@@ -4,7 +4,7 @@ gf180mcu_fd_sc_mcu7t5v0__hold
 
 **gf180mcu_fd_sc_mcu7t5v0__hold symbol**
 
-.. image:: sc7_sym/HOLD_sym.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__hold.symbol.png
     :height: 250px
     :width: 400 px
     :align: center
@@ -12,7 +12,7 @@ gf180mcu_fd_sc_mcu7t5v0__hold
 
 **gf180mcu_fd_sc_mcu7t5v0__hold schematic**
 
-.. image:: sc7_sch/HOLD_sch.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__hold.schematic.png
     :height: 300px
     :width: 500 px
     :align: center
@@ -20,7 +20,7 @@ gf180mcu_fd_sc_mcu7t5v0__hold
 
 **gf180mcu_fd_sc_mcu7t5v0__hold layout**
 
-.. image:: sc7_lay/HOLD_lay.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__hold.layout.png
     :height: 400px
     :width: 700 px
     :align: center

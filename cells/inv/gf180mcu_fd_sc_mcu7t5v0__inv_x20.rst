@@ -4,7 +4,7 @@ gf180mcu_fd_sc_mcu7t5v0__inv_x20
 
 **gf180mcu_fd_sc_mcu7t5v0__inv_x20 symbol**
 
-.. image:: sc7_sym/INV_X20_sym.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__inv_20.symbol.png
     :height: 250px
     :width: 400 px
     :align: center
@@ -12,7 +12,7 @@ gf180mcu_fd_sc_mcu7t5v0__inv_x20
 
 **gf180mcu_fd_sc_mcu7t5v0__inv_x20 schematic**
 
-.. image:: sc7_sch/INV_X20_sch.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__inv_20.schematic.png
     :height: 300px
     :width: 500 px
     :align: center
@@ -20,7 +20,7 @@ gf180mcu_fd_sc_mcu7t5v0__inv_x20
 
 **gf180mcu_fd_sc_mcu7t5v0__inv_x20 layout**
 
-.. image:: sc7_lay/INV_X20_lay.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__inv_20.layout.png
     :height: 400px
     :width: 700 px
     :align: center

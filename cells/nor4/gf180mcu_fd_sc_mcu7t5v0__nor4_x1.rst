@@ -4,7 +4,7 @@ gf180mcu_fd_sc_mcu7t5v0__nor4_x1
 
 **gf180mcu_fd_sc_mcu7t5v0__nor4_x1 symbol**
 
-.. image:: sc7_sym/NOR4_X1_sym.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__nor4_1.symbol.png
     :height: 250px
     :width: 400 px
     :align: center
@@ -12,7 +12,7 @@ gf180mcu_fd_sc_mcu7t5v0__nor4_x1
 
 **gf180mcu_fd_sc_mcu7t5v0__nor4_x1 schematic**
 
-.. image:: sc7_sch/NOR4_X1_sch.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__nor4_1.schematic.png
     :height: 300px
     :width: 500 px
     :align: center
@@ -20,7 +20,7 @@ gf180mcu_fd_sc_mcu7t5v0__nor4_x1
 
 **gf180mcu_fd_sc_mcu7t5v0__nor4_x1 layout**
 
-.. image:: sc7_lay/NOR4_X1_lay.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__nor4_1.layout.png
     :height: 400px
     :width: 700 px
     :align: center

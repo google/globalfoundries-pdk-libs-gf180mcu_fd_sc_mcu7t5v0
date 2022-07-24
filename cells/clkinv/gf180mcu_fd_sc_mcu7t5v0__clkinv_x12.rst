@@ -4,7 +4,7 @@ gf180mcu_fd_sc_mcu7t5v0__clkinv_x12
 
 **gf180mcu_fd_sc_mcu7t5v0__clkinv_x12 symbol**
 
-.. image:: sc7_sym/CLKINV_X12_sym.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__clkinv_12.symbol.png
     :height: 250px
     :width: 400 px
     :align: center
@@ -12,7 +12,7 @@ gf180mcu_fd_sc_mcu7t5v0__clkinv_x12
 
 **gf180mcu_fd_sc_mcu7t5v0__clkinv_x12 schematic**
 
-.. image:: sc7_sch/CLKINV_X12_sch.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__clkinv_12.schematic.png
     :height: 300px
     :width: 500 px
     :align: center
@@ -20,7 +20,7 @@ gf180mcu_fd_sc_mcu7t5v0__clkinv_x12
 
 **gf180mcu_fd_sc_mcu7t5v0__clkinv_x12 layout**
 
-.. image:: sc7_lay/CLKINV_X12_lay.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__clkinv_12.layout.png
     :height: 400px
     :width: 700 px
     :align: center

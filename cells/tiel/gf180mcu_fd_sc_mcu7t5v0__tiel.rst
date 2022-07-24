@@ -4,7 +4,7 @@ gf180mcu_fd_sc_mcu7t5v0__tiel
 
 **gf180mcu_fd_sc_mcu7t5v0__tiel symbol**
 
-.. image:: sc7_sym/TIEL_sym.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__tiel.symbol.png
     :height: 250px
     :width: 400 px
     :align: center
@@ -12,7 +12,7 @@ gf180mcu_fd_sc_mcu7t5v0__tiel
 
 **gf180mcu_fd_sc_mcu7t5v0__tiel schematic**
 
-.. image:: sc7_sch/TIEL_sch.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__tiel.schematic.png
     :height: 300px
     :width: 500 px
     :align: center
@@ -20,7 +20,7 @@ gf180mcu_fd_sc_mcu7t5v0__tiel
 
 **gf180mcu_fd_sc_mcu7t5v0__tiel layout**
 
-.. image:: sc7_lay/TIEL_lay.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__tiel.layout.png
     :height: 400px
     :width: 700 px
     :align: center

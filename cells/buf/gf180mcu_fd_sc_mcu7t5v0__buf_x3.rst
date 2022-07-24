@@ -4,7 +4,7 @@ gf180mcu_fd_sc_mcu7t5v0__buf_x3
 
 **gf180mcu_fd_sc_mcu7t5v0__buf_x3 symbol**
 
-.. image:: sc7_sym/BUF_X3_sym.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__buf_3.symbol.png
     :height: 250px
     :width: 400 px
     :align: center
@@ -12,7 +12,7 @@ gf180mcu_fd_sc_mcu7t5v0__buf_x3
 
 **gf180mcu_fd_sc_mcu7t5v0__buf_x3 schematic**
 
-.. image:: sc7_sch/BUF_X3_sch.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__buf_3.schematic.png
     :height: 300px
     :width: 500 px
     :align: center
@@ -20,7 +20,7 @@ gf180mcu_fd_sc_mcu7t5v0__buf_x3
 
 **gf180mcu_fd_sc_mcu7t5v0__buf_x3 layout**
 
-.. image:: sc7_lay/BUF_X3_lay.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__buf_3.layout.png
     :height: 400px
     :width: 700 px
     :align: center

@@ -4,7 +4,7 @@ gf180mcu_fd_sc_mcu7t5v0__antenna
 
 **gf180mcu_fd_sc_mcu7t5v0__antenna symbol**
 
-.. image:: sc7_sym/ANTENNA_sym.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__antenna.symbol.png
     :height: 250px
     :width: 400 px
     :align: center
@@ -12,7 +12,7 @@ gf180mcu_fd_sc_mcu7t5v0__antenna
 
 **gf180mcu_fd_sc_mcu7t5v0__antenna schematic**
 
-.. image:: sc7_sch/ANTENNA_sch.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__antenna.schematic.png
     :height: 300px
     :width: 500 px
     :align: center
@@ -20,7 +20,7 @@ gf180mcu_fd_sc_mcu7t5v0__antenna
 
 **gf180mcu_fd_sc_mcu7t5v0__antenna layout**
 
-.. image:: sc7_lay/ANTENNA_lay.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__antenna.layout.png
     :height: 400px
     :width: 700 px
     :align: center

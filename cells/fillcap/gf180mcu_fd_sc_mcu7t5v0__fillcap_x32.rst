@@ -4,7 +4,7 @@ gf180mcu_fd_sc_mcu7t5v0__fillcap_x32
 
 **gf180mcu_fd_sc_mcu7t5v0__fillcap_x32 symbol**
 
-.. image:: sc7_sym/FILLCAP_X32_sym.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__fillcap_32.symbol.png
     :height: 250px
     :width: 400 px
     :align: center
@@ -12,7 +12,7 @@ gf180mcu_fd_sc_mcu7t5v0__fillcap_x32
 
 **gf180mcu_fd_sc_mcu7t5v0__fillcap_x32 schematic**
 
-.. image:: sc7_sch/FILLCAP_X32_sch.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__fillcap_32.schematic.png
     :height: 300px
     :width: 500 px
     :align: center
@@ -20,7 +20,7 @@ gf180mcu_fd_sc_mcu7t5v0__fillcap_x32
 
 **gf180mcu_fd_sc_mcu7t5v0__fillcap_x32 layout**
 
-.. image:: sc7_lay/FILLCAP_X32_lay.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__fillcap_32.layout.png
     :height: 400px
     :width: 700 px
     :align: center

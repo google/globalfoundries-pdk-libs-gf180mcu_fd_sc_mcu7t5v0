@@ -4,7 +4,7 @@ gf180mcu_fd_sc_mcu7t5v0__fill_x8
 
 **gf180mcu_fd_sc_mcu7t5v0__fill_x8 symbol**
 
-.. image:: sc7_sym/FILL_X8_sym.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__fill_8.symbol.png
     :height: 250px
     :width: 400 px
     :align: center
@@ -12,7 +12,7 @@ gf180mcu_fd_sc_mcu7t5v0__fill_x8
 
 **gf180mcu_fd_sc_mcu7t5v0__fill_x8 schematic**
 
-.. image:: sc7_sch/FILL_X8_sch.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__fill_8.schematic.png
     :height: 300px
     :width: 500 px
     :align: center
@@ -20,7 +20,7 @@ gf180mcu_fd_sc_mcu7t5v0__fill_x8
 
 **gf180mcu_fd_sc_mcu7t5v0__fill_x8 layout**
 
-.. image:: sc7_lay/FILL_X8_lay.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__fill_8.layout.png
     :height: 400px
     :width: 700 px
     :align: center
