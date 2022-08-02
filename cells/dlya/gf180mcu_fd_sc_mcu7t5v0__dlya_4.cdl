@@ -13,18 +13,18 @@
 * limitations under the License.
 
 .SUBCKT gf180mcu_fd_sc_mcu7t5v0__dlya_4 I Z VDD VNW VPW VSS
-M_i_2_0 Z_neg I VSS VPW nmos_5p0 W=3.6e-07 L=6e-07
-M_i_2 VSS Z_neg net_2 VPW nmos_5p0 W=3.6e-07 L=6e-07
-M_i_3_6 net_3 net_2 VSS VPW nmos_5p0 W=3.6e-07 L=6e-07
-M_i_2_0_18 Z net_3 VSS VPW nmos_5p0 W=8.2e-07 L=6e-07
-M_i_2_0_18_1 Z net_3 VSS VPW nmos_5p0 W=8.2e-07 L=6e-07
-M_i_2_0_18_2 Z net_3 VSS VPW nmos_5p0 W=8.2e-07 L=6e-07
-M_i_2_0_18_1_15 Z net_3 VSS VPW nmos_5p0 W=8.2e-07 L=6e-07
-M_i_3_0 Z_neg I VDD VNW pmos_5p0 W=3.6e-07 L=5e-07
-M_i_1 VDD Z_neg net_2 VNW pmos_5p0 W=3.6e-07 L=5e-07
-M_i_0_29 net_3 net_2 VDD VNW pmos_5p0 W=3.6e-07 L=5e-07
-M_i_3_0_0 Z net_3 VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
-M_i_3_0_0_14 Z net_3 VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
-M_i_3_0_0_34 Z net_3 VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
-M_i_3_0_0_14_19 Z net_3 VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
+M_i_2_0 Z_neg I VSS VPW nfet_05v0 W=3.6e-07 L=6e-07
+M_i_2 VSS Z_neg net_2 VPW nfet_05v0 W=3.6e-07 L=6e-07
+M_i_3_6 net_3 net_2 VSS VPW nfet_05v0 W=3.6e-07 L=6e-07
+M_i_2_0_18 Z net_3 VSS VPW nfet_05v0 W=8.2e-07 L=6e-07
+M_i_2_0_18_1 Z net_3 VSS VPW nfet_05v0 W=8.2e-07 L=6e-07
+M_i_2_0_18_2 Z net_3 VSS VPW nfet_05v0 W=8.2e-07 L=6e-07
+M_i_2_0_18_1_15 Z net_3 VSS VPW nfet_05v0 W=8.2e-07 L=6e-07
+M_i_3_0 Z_neg I VDD VNW pfet_05v0 W=3.6e-07 L=5e-07
+M_i_1 VDD Z_neg net_2 VNW pfet_05v0 W=3.6e-07 L=5e-07
+M_i_0_29 net_3 net_2 VDD VNW pfet_05v0 W=3.6e-07 L=5e-07
+M_i_3_0_0 Z net_3 VDD VNW pfet_05v0 W=1.22e-06 L=5e-07
+M_i_3_0_0_14 Z net_3 VDD VNW pfet_05v0 W=1.22e-06 L=5e-07
+M_i_3_0_0_34 Z net_3 VDD VNW pfet_05v0 W=1.22e-06 L=5e-07
+M_i_3_0_0_14_19 Z net_3 VDD VNW pfet_05v0 W=1.22e-06 L=5e-07
 .ENDS

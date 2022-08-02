@@ -13,26 +13,26 @@
 * limitations under the License.
 
 .SUBCKT gf180mcu_fd_sc_mcu7t5v0__icgtp_1 CLK E TE Q VDD VNW VPW VSS
-M_MU19 net50 TE VSS VPW nmos_5p0 W=3.95e-07 L=6e-07
-M_MU20 VSS E net50 VPW nmos_5p0 W=3.95e-07 L=6e-07
-M_MU81_M_u2 NCK CLK VSS VPW nmos_5p0 W=3.9e-07 L=6e-07
-M_MU75_M_u2 Q d3 VSS VPW nmos_5p0 W=6.3e-07 L=6e-07
-M_MI81 VDD TE net58 VNW pmos_5p0 W=9.25e-07 L=5e-07
-M_MU17 net58 E net61 VNW pmos_5p0 W=9.25e-07 L=5e-07
-M_MU82_M_u3 CK NCK VDD VNW pmos_5p0 W=9.2e-07 L=5e-07
-M_MU81_M_u3 VDD CLK NCK VNW pmos_5p0 W=9.2e-07 L=5e-07
-M_MI85_M_u1 d3 CLK VDD VNW pmos_5p0 W=9.2e-07 L=5e-07
-M_MU75_M_u3 Q d3 VDD VNW pmos_5p0 W=1.22e-06 L=5e-07
-M_MI82 net50 NCK net53 VPW nmos_5p0 W=3.95e-07 L=6e-07
-M_MI91 net53 CK net033 VPW nmos_5p0 W=3.95e-07 L=6e-07
-M_MI92 net033 QD VSS VPW nmos_5p0 W=3.95e-07 L=6e-07
-M_MI80_M_u2 VSS net53 QD VPW nmos_5p0 W=3.95e-07 L=6e-07
-M_MU82_M_u2 VSS NCK CK VPW nmos_5p0 W=3.9e-07 L=6e-07
-M_MI85_M_u3 XI85-net6 CLK d3 VPW nmos_5p0 W=3.9e-07 L=6e-07
-M_MI85_M_u4 VSS QD XI85-net6 VPW nmos_5p0 W=3.9e-07 L=6e-07
-M_MU16 net61 CK net53 VNW pmos_5p0 W=7.65e-07 L=5e-07
-M_MI90 net53 NCK net062 VNW pmos_5p0 W=7.65e-07 L=5e-07
-M_MI88 net062 QD VDD VNW pmos_5p0 W=7.65e-07 L=5e-07
-M_MI80_M_u3 VDD net53 QD VNW pmos_5p0 W=7.65e-07 L=5e-07
-M_MI85_M_u2 VDD QD d3 VNW pmos_5p0 W=9.2e-07 L=5e-07
+M_MU19 net50 TE VSS VPW nfet_05v0 W=3.95e-07 L=6e-07
+M_MU20 VSS E net50 VPW nfet_05v0 W=3.95e-07 L=6e-07
+M_MU81_M_u2 NCK CLK VSS VPW nfet_05v0 W=3.9e-07 L=6e-07
+M_MU75_M_u2 Q d3 VSS VPW nfet_05v0 W=6.3e-07 L=6e-07
+M_MI81 VDD TE net58 VNW pfet_05v0 W=9.25e-07 L=5e-07
+M_MU17 net58 E net61 VNW pfet_05v0 W=9.25e-07 L=5e-07
+M_MU82_M_u3 CK NCK VDD VNW pfet_05v0 W=9.2e-07 L=5e-07
+M_MU81_M_u3 VDD CLK NCK VNW pfet_05v0 W=9.2e-07 L=5e-07
+M_MI85_M_u1 d3 CLK VDD VNW pfet_05v0 W=9.2e-07 L=5e-07
+M_MU75_M_u3 Q d3 VDD VNW pfet_05v0 W=1.22e-06 L=5e-07
+M_MI82 net50 NCK net53 VPW nfet_05v0 W=3.95e-07 L=6e-07
+M_MI91 net53 CK net033 VPW nfet_05v0 W=3.95e-07 L=6e-07
+M_MI92 net033 QD VSS VPW nfet_05v0 W=3.95e-07 L=6e-07
+M_MI80_M_u2 VSS net53 QD VPW nfet_05v0 W=3.95e-07 L=6e-07
+M_MU82_M_u2 VSS NCK CK VPW nfet_05v0 W=3.9e-07 L=6e-07
+M_MI85_M_u3 XI85-net6 CLK d3 VPW nfet_05v0 W=3.9e-07 L=6e-07
+M_MI85_M_u4 VSS QD XI85-net6 VPW nfet_05v0 W=3.9e-07 L=6e-07
+M_MU16 net61 CK net53 VNW pfet_05v0 W=7.65e-07 L=5e-07
+M_MI90 net53 NCK net062 VNW pfet_05v0 W=7.65e-07 L=5e-07
+M_MI88 net062 QD VDD VNW pfet_05v0 W=7.65e-07 L=5e-07
+M_MI80_M_u3 VDD net53 QD VNW pfet_05v0 W=7.65e-07 L=5e-07
+M_MI85_M_u2 VDD QD d3 VNW pfet_05v0 W=9.2e-07 L=5e-07
 .ENDS
