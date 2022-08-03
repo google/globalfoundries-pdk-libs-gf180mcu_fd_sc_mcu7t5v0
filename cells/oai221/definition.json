@@ -1,0 +1,59 @@
+{
+    "description": "two 2-input OR into 3-input NAND",
+    "file_prefix": "gf180mcu_fd_sc_mcu7t5v0__oai221",
+    "library": "gf180mcu_fd_sc_mcu7t5v0",
+    "name": "oai221",
+    "parameters": [],
+    "ports": [
+        [
+            "signal",
+            "A1",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "A2",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "B1",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "B2",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "C",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "ZN",
+            "output",
+            ""
+        ],
+        [
+            "power",
+            "VDD",
+            "input",
+            "supply1"
+        ],
+        [
+            "power",
+            "VSS",
+            "input",
+            "supply0"
+        ]
+    ],
+    "type": "cell",
+    "verilog_name": "gf180mcu_fd_sc_mcu7t5v0__oai221"
+}

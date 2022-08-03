@@ -1,0 +1,41 @@
+{
+    "description": "tri-state buffer",
+    "file_prefix": "gf180mcu_fd_sc_mcu7t5v0__bufz",
+    "library": "gf180mcu_fd_sc_mcu7t5v0",
+    "name": "bufz",
+    "parameters": [],
+    "ports": [
+        [
+            "signal",
+            "EN",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "I",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "Z",
+            "output",
+            ""
+        ],
+        [
+            "power",
+            "VDD",
+            "input",
+            "supply1"
+        ],
+        [
+            "power",
+            "VSS",
+            "input",
+            "supply0"
+        ]
+    ],
+    "type": "cell",
+    "verilog_name": "gf180mcu_fd_sc_mcu7t5v0__bufz"
+}

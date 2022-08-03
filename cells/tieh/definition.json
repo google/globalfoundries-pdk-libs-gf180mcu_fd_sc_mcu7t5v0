@@ -1,0 +1,29 @@
+{
+    "description": "high level generator",
+    "file_prefix": "gf180mcu_fd_sc_mcu7t5v0__tieh",
+    "library": "gf180mcu_fd_sc_mcu7t5v0",
+    "name": "tieh",
+    "parameters": [],
+    "ports": [
+        [
+            "signal",
+            "Z",
+            "output",
+            ""
+        ],
+        [
+            "power",
+            "VDD",
+            "input",
+            "supply1"
+        ],
+        [
+            "power",
+            "VSS",
+            "input",
+            "supply0"
+        ]
+    ],
+    "type": "cell",
+    "verilog_name": "gf180mcu_fd_sc_mcu7t5v0__tieh"
+}

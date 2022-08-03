@@ -1,0 +1,47 @@
+{
+    "description": "2-to-1 multiplexer",
+    "file_prefix": "gf180mcu_fd_sc_mcu7t5v0__mux2",
+    "library": "gf180mcu_fd_sc_mcu7t5v0",
+    "name": "mux2",
+    "parameters": [],
+    "ports": [
+        [
+            "signal",
+            "I0",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "I1",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "S",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "Z",
+            "output",
+            ""
+        ],
+        [
+            "power",
+            "VDD",
+            "input",
+            "supply1"
+        ],
+        [
+            "power",
+            "VSS",
+            "input",
+            "supply0"
+        ]
+    ],
+    "type": "cell",
+    "verilog_name": "gf180mcu_fd_sc_mcu7t5v0__mux2"
+}
