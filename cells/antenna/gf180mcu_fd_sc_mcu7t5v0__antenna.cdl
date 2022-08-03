@@ -13,6 +13,6 @@
 * limitations under the License.
 
 .SUBCKT gf180mcu_fd_sc_mcu7t5v0__antenna I VDD VNW VPW VSS
-d0 VPW I np_6p0 0.2052p 1.86u $m=1
-d1 I VNW pn_6p0 0.2052p 1.86u $m=1
+d0 VPW I diode_nd2ps_06v0 0.2052p 1.86u $m=1
+d1 I VNW diode_pd2nw_06v0 0.2052p 1.86u $m=1
 .ENDS
