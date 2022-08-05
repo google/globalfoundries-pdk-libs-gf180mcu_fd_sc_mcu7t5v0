@@ -1,0 +1,47 @@
+{
+    "description": "negative edge triggered D-type flip flop",
+    "file_prefix": "gf180mcu_fd_sc_mcu7t5v0__dffnsnq",
+    "library": "gf180mcu_fd_sc_mcu7t5v0",
+    "name": "dffnsnq",
+    "parameters": [],
+    "ports": [
+        [
+            "signal",
+            "CLKN",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "D",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "SETN",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "Q",
+            "output",
+            ""
+        ],
+        [
+            "power",
+            "VDD",
+            "input",
+            "supply1"
+        ],
+        [
+            "power",
+            "VSS",
+            "input",
+            "supply0"
+        ]
+    ],
+    "type": "cell",
+    "verilog_name": "gf180mcu_fd_sc_mcu7t5v0__dffnsnq"
+}

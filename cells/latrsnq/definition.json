@@ -1,0 +1,53 @@
+{
+    "description": "positive D-latch",
+    "file_prefix": "gf180mcu_fd_sc_mcu7t5v0__latrsnq",
+    "library": "gf180mcu_fd_sc_mcu7t5v0",
+    "name": "latrsnq",
+    "parameters": [],
+    "ports": [
+        [
+            "signal",
+            "D",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "E",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "RN",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "SETN",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "Q",
+            "output",
+            ""
+        ],
+        [
+            "power",
+            "VDD",
+            "input",
+            "supply1"
+        ],
+        [
+            "power",
+            "VSS",
+            "input",
+            "supply0"
+        ]
+    ],
+    "type": "cell",
+    "verilog_name": "gf180mcu_fd_sc_mcu7t5v0__latrsnq"
+}

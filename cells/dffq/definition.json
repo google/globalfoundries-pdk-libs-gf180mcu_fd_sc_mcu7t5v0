@@ -1,0 +1,41 @@
+{
+    "description": "poistive edge triggered D-type flip flop",
+    "file_prefix": "gf180mcu_fd_sc_mcu7t5v0__dffq",
+    "library": "gf180mcu_fd_sc_mcu7t5v0",
+    "name": "dffq",
+    "parameters": [],
+    "ports": [
+        [
+            "signal",
+            "CLK",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "D",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "Q",
+            "output",
+            ""
+        ],
+        [
+            "power",
+            "VDD",
+            "input",
+            "supply1"
+        ],
+        [
+            "power",
+            "VSS",
+            "input",
+            "supply0"
+        ]
+    ],
+    "type": "cell",
+    "verilog_name": "gf180mcu_fd_sc_mcu7t5v0__dffq"
+}

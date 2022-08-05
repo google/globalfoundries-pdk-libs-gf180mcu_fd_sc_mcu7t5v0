@@ -1,0 +1,47 @@
+{
+    "description": "3-input exclusive NOR",
+    "file_prefix": "gf180mcu_fd_sc_mcu7t5v0__xnor3",
+    "library": "gf180mcu_fd_sc_mcu7t5v0",
+    "name": "xnor3",
+    "parameters": [],
+    "ports": [
+        [
+            "signal",
+            "A1",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "A2",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "A3",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "ZN",
+            "output",
+            ""
+        ],
+        [
+            "power",
+            "VDD",
+            "input",
+            "supply1"
+        ],
+        [
+            "power",
+            "VSS",
+            "input",
+            "supply0"
+        ]
+    ],
+    "type": "cell",
+    "verilog_name": "gf180mcu_fd_sc_mcu7t5v0__xnor3"
+}

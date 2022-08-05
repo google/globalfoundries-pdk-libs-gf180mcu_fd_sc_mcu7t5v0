@@ -1,0 +1,47 @@
+{
+    "description": "2-input AND into 2-input NOR",
+    "file_prefix": "gf180mcu_fd_sc_mcu7t5v0__aoi21",
+    "library": "gf180mcu_fd_sc_mcu7t5v0",
+    "name": "aoi21",
+    "parameters": [],
+    "ports": [
+        [
+            "signal",
+            "A1",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "A2",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "B",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "ZN",
+            "output",
+            ""
+        ],
+        [
+            "power",
+            "VDD",
+            "input",
+            "supply1"
+        ],
+        [
+            "power",
+            "VSS",
+            "input",
+            "supply0"
+        ]
+    ],
+    "type": "cell",
+    "verilog_name": "gf180mcu_fd_sc_mcu7t5v0__aoi21"
+}

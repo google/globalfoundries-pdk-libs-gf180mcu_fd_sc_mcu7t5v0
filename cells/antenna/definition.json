@@ -1,0 +1,29 @@
+{
+    "description": "antenna cell",
+    "file_prefix": "gf180mcu_fd_sc_mcu7t5v0__antenna",
+    "library": "gf180mcu_fd_sc_mcu7t5v0",
+    "name": "antenna",
+    "parameters": [],
+    "ports": [
+        [
+            "signal",
+            "I",
+            "input",
+            ""
+        ],
+        [
+            "power",
+            "VDD",
+            "input",
+            "supply1"
+        ],
+        [
+            "power",
+            "VSS",
+            "input",
+            "supply0"
+        ]
+    ],
+    "type": "cell",
+    "verilog_name": "gf180mcu_fd_sc_mcu7t5v0__antenna"
+}

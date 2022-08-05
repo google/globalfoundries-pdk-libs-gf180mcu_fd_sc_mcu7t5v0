@@ -1,0 +1,53 @@
+{
+    "description": "Full Adder",
+    "file_prefix": "gf180mcu_fd_sc_mcu7t5v0__addf",
+    "library": "gf180mcu_fd_sc_mcu7t5v0",
+    "name": "addf",
+    "parameters": [],
+    "ports": [
+        [
+            "signal",
+            "A",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "B",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "CI",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "CO",
+            "output",
+            ""
+        ],
+        [
+            "signal",
+            "S",
+            "output",
+            ""
+        ],
+        [
+            "power",
+            "VDD",
+            "input",
+            "supply1"
+        ],
+        [
+            "power",
+            "VSS",
+            "input",
+            "supply0"
+        ]
+    ],
+    "type": "cell",
+    "verilog_name": "gf180mcu_fd_sc_mcu7t5v0__addf"
+}

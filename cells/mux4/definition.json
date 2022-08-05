@@ -1,0 +1,65 @@
+{
+    "description": "4-to-1 multiplexer",
+    "file_prefix": "gf180mcu_fd_sc_mcu7t5v0__mux4",
+    "library": "gf180mcu_fd_sc_mcu7t5v0",
+    "name": "mux4",
+    "parameters": [],
+    "ports": [
+        [
+            "signal",
+            "I0",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "I1",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "I2",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "I3",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "S0",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "S1",
+            "input",
+            ""
+        ],
+        [
+            "signal",
+            "Z",
+            "output",
+            ""
+        ],
+        [
+            "power",
+            "VDD",
+            "input",
+            "supply1"
+        ],
+        [
+            "power",
+            "VSS",
+            "input",
+            "supply0"
+        ]
+    ],
+    "type": "cell",
+    "verilog_name": "gf180mcu_fd_sc_mcu7t5v0__mux4"
+}
