@@ -9,7 +9,7 @@ gf180mcu_fd_sc_mcu7t5v0__antenna
 
 **gf180mcu_fd_sc_mcu7t5v0__antenna schematic**
 
-.. image:: gf180mcu_fd_sc_mcu7t5v0__antenna.schematic.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__antenna.schematic.svg
     :alt: gf180mcu_fd_sc_mcu7t5v0__antenna schematic
 
 **gf180mcu_fd_sc_mcu7t5v0__antenna layout**

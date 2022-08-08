@@ -9,7 +9,7 @@ gf180mcu_fd_sc_mcu7t5v0__tiel
 
 **gf180mcu_fd_sc_mcu7t5v0__tiel schematic**
 
-.. image:: gf180mcu_fd_sc_mcu7t5v0__tiel.schematic.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__tiel.schematic.svg
     :alt: gf180mcu_fd_sc_mcu7t5v0__tiel schematic
 
 **gf180mcu_fd_sc_mcu7t5v0__tiel layout**

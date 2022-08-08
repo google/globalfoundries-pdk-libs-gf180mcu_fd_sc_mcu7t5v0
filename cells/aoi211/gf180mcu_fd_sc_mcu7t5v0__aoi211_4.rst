@@ -9,7 +9,7 @@ gf180mcu_fd_sc_mcu7t5v0__aoi211_4
 
 **gf180mcu_fd_sc_mcu7t5v0__aoi211_4 schematic**
 
-.. image:: gf180mcu_fd_sc_mcu7t5v0__aoi211_4.schematic.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__aoi211.schematic.svg
     :alt: gf180mcu_fd_sc_mcu7t5v0__aoi211_4 schematic
 
 **gf180mcu_fd_sc_mcu7t5v0__aoi211_4 layout**

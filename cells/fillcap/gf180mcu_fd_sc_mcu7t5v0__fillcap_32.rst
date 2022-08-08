@@ -9,7 +9,7 @@ gf180mcu_fd_sc_mcu7t5v0__fillcap_x32
 
 **gf180mcu_fd_sc_mcu7t5v0__fillcap_x32 schematic**
 
-.. image:: gf180mcu_fd_sc_mcu7t5v0__fillcap_32.schematic.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__fillcap.schematic.svg
     :alt: gf180mcu_fd_sc_mcu7t5v0__fillcap_x32 schematic
 
 **gf180mcu_fd_sc_mcu7t5v0__fillcap_x32 layout**

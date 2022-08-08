@@ -9,7 +9,7 @@ gf180mcu_fd_sc_mcu7t5v0__endcap
 
 **gf180mcu_fd_sc_mcu7t5v0__endcap schematic**
 
-.. image:: gf180mcu_fd_sc_mcu7t5v0__endcap.schematic.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__endcap.schematic.svg
     :alt: gf180mcu_fd_sc_mcu7t5v0__endcap schematic
 
 **gf180mcu_fd_sc_mcu7t5v0__endcap layout**

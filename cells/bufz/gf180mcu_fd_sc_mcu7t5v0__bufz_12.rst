@@ -9,7 +9,7 @@ gf180mcu_fd_sc_mcu7t5v0__bufz_x12
 
 **gf180mcu_fd_sc_mcu7t5v0__bufz_x12 schematic**
 
-.. image:: gf180mcu_fd_sc_mcu7t5v0__bufz_12.schematic.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__bufz.schematic.svg
     :alt: gf180mcu_fd_sc_mcu7t5v0__bufz_x12 schematic
 
 **gf180mcu_fd_sc_mcu7t5v0__bufz_x12 layout**

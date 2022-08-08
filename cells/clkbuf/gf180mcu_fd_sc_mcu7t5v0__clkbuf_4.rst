@@ -9,7 +9,7 @@ gf180mcu_fd_sc_mcu7t5v0__clkbuf_4
 
 **gf180mcu_fd_sc_mcu7t5v0__clkbuf_4 schematic**
 
-.. image:: gf180mcu_fd_sc_mcu7t5v0__clkbuf_4.schematic.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__clkbuf.schematic.svg
     :alt: gf180mcu_fd_sc_mcu7t5v0__clkbuf_4 schematic
 
 **gf180mcu_fd_sc_mcu7t5v0__clkbuf_4 layout**

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="0" height="0"><style>svg {
+  stroke:#000;
+  fill:none;
+}
+text {
+  fill:#000;
+  stroke:none;
+  font-size:10px;
+  font-weight: bold;
+  font-family: "Courier New", monospace;
+}
+line {
+    stroke-linecap: round;
+}
+.nodelabel {
+  text-anchor: middle;
+}
+.inputPortLabel {
+  text-anchor: end;
+}
+.splitjoinBody {
+  fill:#000;
+}</style></svg>
