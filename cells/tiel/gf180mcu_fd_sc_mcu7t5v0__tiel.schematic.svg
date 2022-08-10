@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="https://github.com/nturley/netlistsvg" width="120" height="54"><style>svg {
+  stroke:#000;
+  fill:none;
+}
+text {
+  fill:#000;
+  stroke:none;
+  font-size:10px;
+  font-weight: bold;
+  font-family: "Courier New", monospace;
+}
+line {
+    stroke-linecap: round;
+}
+.nodelabel {
+  text-anchor: middle;
+}
+.inputPortLabel {
+  text-anchor: end;
+}
+.splitjoinBody {
+  fill:#000;
+}</style><g s:type="outputExt" transform="translate(78,22)" s:width="30" s:height="20" id="cell_ZN"><text x="15" y="-4" class="nodelabel cell_ZN" s:attribute="ref">ZN</text><s:alias val="$_outputExt_"/><path d="M30,0 L30,20 L15,20 L0,10 L15,0 Z" class="cell_ZN"/><g s:x="0" s:y="10" s:pid="A"/></g><g s:type="constant" transform="translate(12,22)" s:width="30" s:height="20" id="cell_0"><text x="15" y="-4" class="nodelabel cell_0" s:attribute="ref">0</text><s:alias val="$_constant_"/><rect width="30" height="20" class="cell_0"/><g s:x="31" s:y="10" s:pid="Y"/></g><line x1="43" x2="78" y1="32" y2="32" class="net_0 width_1" style="stroke-width: 1"/></svg>

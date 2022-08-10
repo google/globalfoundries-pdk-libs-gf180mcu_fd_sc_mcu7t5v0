@@ -9,7 +9,7 @@ gf180mcu_fd_sc_mcu7t5v0__filltie
 
 **gf180mcu_fd_sc_mcu7t5v0__filltie schematic**
 
-.. image:: gf180mcu_fd_sc_mcu7t5v0__filltie.schematic.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__filltie.schematic.svg
     :alt: gf180mcu_fd_sc_mcu7t5v0__filltie schematic
 
 **gf180mcu_fd_sc_mcu7t5v0__filltie layout**

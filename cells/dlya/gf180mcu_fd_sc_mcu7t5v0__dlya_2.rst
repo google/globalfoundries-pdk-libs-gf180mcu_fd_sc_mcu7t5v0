@@ -9,7 +9,7 @@ gf180mcu_fd_sc_mcu7t5v0__dlya_2
 
 **gf180mcu_fd_sc_mcu7t5v0__dlya_2 schematic**
 
-.. image:: gf180mcu_fd_sc_mcu7t5v0__dlya_2.schematic.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__dlya.schematic.svg
     :alt: gf180mcu_fd_sc_mcu7t5v0__dlya_2 schematic
 
 **gf180mcu_fd_sc_mcu7t5v0__dlya_2 layout**

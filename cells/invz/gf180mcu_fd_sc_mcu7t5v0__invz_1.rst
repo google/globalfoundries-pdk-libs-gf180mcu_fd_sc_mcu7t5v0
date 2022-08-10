@@ -9,7 +9,7 @@ gf180mcu_fd_sc_mcu7t5v0__invz_1
 
 **gf180mcu_fd_sc_mcu7t5v0__invz_1 schematic**
 
-.. image:: gf180mcu_fd_sc_mcu7t5v0__invz_1.schematic.png
+.. image:: gf180mcu_fd_sc_mcu7t5v0__invz.schematic.svg
     :alt: gf180mcu_fd_sc_mcu7t5v0__invz_1 schematic
 
 **gf180mcu_fd_sc_mcu7t5v0__invz_1 layout**
