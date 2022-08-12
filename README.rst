@@ -1,4 +1,4 @@
-GlobalFoundries 180um MCU 7 track standard cells libraries
+GlobalFoundries 180nm MCU 7 track standard cells libraries
 ==========================================================
 
 This repository contains the "7 track standard cells" implementation as part of
