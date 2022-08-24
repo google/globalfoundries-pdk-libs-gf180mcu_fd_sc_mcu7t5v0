@@ -1,0 +1,132 @@
+/*
+ * Copyright 2022 GlobalFoundries PDK Authors
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+library(gf180mcu_fd_sc_mcu7t5v0__ss_n40C_1v62) { 
+  delay_model : table_lookup ; 
+  library_features(report_delay_calculation, report_power_calculation);
+  time_unit : 1ns ; 
+  voltage_unit : 1V ; 
+  current_unit : 1mA ; 
+  capacitive_load_unit(1, pf);
+  pulling_resistance_unit : 1ohm ; 
+  leakage_power_unit : 1uW ; 
+  input_threshold_pct_fall : 50 ; 
+  input_threshold_pct_rise : 50 ; 
+  output_threshold_pct_fall : 50 ; 
+  output_threshold_pct_rise : 50 ; 
+  slew_derate_from_library : 0.5 ; 
+  slew_lower_threshold_pct_fall : 30 ; 
+  slew_lower_threshold_pct_rise : 30 ; 
+  slew_upper_threshold_pct_fall : 70 ; 
+  slew_upper_threshold_pct_rise : 70 ; 
+  nom_process : 1 ; 
+  nom_temperature : -40 ; 
+  nom_voltage : 1.62 ; 
+  voltage_map(VNW, 1.62);
+  voltage_map(VDD, 1.62);
+  voltage_map(VSS, 0);
+  voltage_map(VPW, 0);
+
+  operating_conditions(gf180mcu_fd_sc_mcu7t5v0__ss_n40C_1v62) { 
+    process : 1 ; 
+    temperature : -40 ; 
+    voltage : 1.62 ; 
+  }
+
+  input_voltage(default) { 
+    vil : 0 ; 
+    vih : 1.62 ; 
+    vimin : 0 ; 
+    vimax : 1.62 ; 
+  }
+
+  output_voltage(default) { 
+    vol : 0 ; 
+    voh : 1.62 ; 
+    vomin : 0 ; 
+    vomax : 1.62 ; 
+  }
+
+  lu_table_template(cnst_ctin_rtin_10x10) { 
+    variable_1 : constrained_pin_transition ; 
+    variable_2 : related_pin_transition ; 
+    index_1("1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
+    index_2("1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
+  }
+
+  lu_table_template(ndw_ntin_nvolt_10x13) { 
+    variable_1 : input_net_transition ; 
+    variable_2 : normalized_voltage ; 
+    index_1("1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
+    index_2("1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13");
+  }
+
+  lu_table_template(tmg_ntin_10) { 
+    variable_1 : input_net_transition ; 
+    index_1("1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
+  }
+
+  lu_table_template(tmg_ntin_oload_10x10) { 
+    variable_1 : input_net_transition ; 
+    variable_2 : total_output_net_capacitance ; 
+    index_1("1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
+    index_2("1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
+  }
+
+  power_lut_template(pwr_tin_10) { 
+    variable_1 : input_transition_time ; 
+    index_1("1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
+  }
+
+  power_lut_template(pwr_tin_oload_10x10) { 
+    variable_1 : input_transition_time ; 
+    variable_2 : total_output_net_capacitance ; 
+    index_1("1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
+    index_2("1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
+  }
+
+  normalized_driver_waveform(ndw_ntin_nvolt_10x13) { 
+    driver_waveform_name : "driver_waveform_default_fall" ; 
+    index_1("0.02, 0.1648, 0.6731, 1.644, 3.156, 5.278, 8.07, 11.59, 15.88, 21");
+    index_2("0, 0.05, 0.1674, 0.3, 0.4168, 0.5209, 0.6146, 0.7, 0.7786, 0.8518, 0.9205, 0.9857, 1");
+    values("0, 0.0025, 0.005, 0.0075, 0.01, 0.0125, 0.015, 0.0175, 0.02, 0.0225, 0.025, 0.0275, 0.03",\
+           "0, 0.0206, 0.0412, 0.0618, 0.0824, 0.103, 0.1236, 0.1442, 0.1648, 0.1854, 0.206, 0.2266, 0.2472",\
+           "0, 0.08414, 0.1683, 0.2524, 0.3366, 0.4207, 0.5048, 0.589, 0.6731, 0.7572, 0.8414, 0.9255, 1.01",\
+           "0, 0.2055, 0.4109, 0.6164, 0.8219, 1.027, 1.233, 1.438, 1.644, 1.849, 2.055, 2.26, 2.466",\
+           "0, 0.3945, 0.789, 1.184, 1.578, 1.973, 2.367, 2.762, 3.156, 3.551, 3.945, 4.34, 4.734",\
+           "0, 0.6597, 1.319, 1.979, 2.639, 3.299, 3.958, 4.618, 5.278, 5.938, 6.597, 7.257, 7.917",\
+           "0, 1.009, 2.018, 3.026, 4.035, 5.044, 6.053, 7.061, 8.07, 9.079, 10.09, 11.1, 12.11",\
+           "0, 1.448, 2.897, 4.345, 5.794, 7.242, 8.691, 10.14, 11.59, 13.04, 14.48, 15.93, 17.38",\
+           "0, 1.985, 3.97, 5.956, 7.941, 9.926, 11.91, 13.9, 15.88, 17.87, 19.85, 21.84, 23.82",\
+           "0, 2.625, 5.25, 7.875, 10.5, 13.12, 15.75, 18.38, 21, 23.62, 26.25, 28.88, 31.5");
+  }
+
+  normalized_driver_waveform(ndw_ntin_nvolt_10x13) { 
+    driver_waveform_name : "driver_waveform_default_rise" ; 
+    index_1("0.02, 0.1648, 0.6731, 1.644, 3.156, 5.278, 8.07, 11.59, 15.88, 21");
+    index_2("0, 0.05, 0.1674, 0.3, 0.4168, 0.5209, 0.6146, 0.7, 0.7786, 0.8518, 0.9205, 0.9857, 1");
+    values("0, 0.0025, 0.005, 0.0075, 0.01, 0.0125, 0.015, 0.0175, 0.02, 0.0225, 0.025, 0.0275, 0.03",\
+           "0, 0.0206, 0.0412, 0.0618, 0.0824, 0.103, 0.1236, 0.1442, 0.1648, 0.1854, 0.206, 0.2266, 0.2472",\
+           "0, 0.08414, 0.1683, 0.2524, 0.3366, 0.4207, 0.5048, 0.589, 0.6731, 0.7572, 0.8414, 0.9255, 1.01",\
+           "0, 0.2055, 0.4109, 0.6164, 0.8219, 1.027, 1.233, 1.438, 1.644, 1.849, 2.055, 2.26, 2.466",\
+           "0, 0.3945, 0.789, 1.184, 1.578, 1.973, 2.367, 2.762, 3.156, 3.551, 3.945, 4.34, 4.734",\
+           "0, 0.6597, 1.319, 1.979, 2.639, 3.299, 3.958, 4.618, 5.278, 5.938, 6.597, 7.257, 7.917",\
+           "0, 1.009, 2.018, 3.026, 4.035, 5.044, 6.053, 7.061, 8.07, 9.079, 10.09, 11.1, 12.11",\
+           "0, 1.448, 2.897, 4.345, 5.794, 7.242, 8.691, 10.14, 11.59, 13.04, 14.48, 15.93, 17.38",\
+           "0, 1.985, 3.97, 5.956, 7.941, 9.926, 11.91, 13.9, 15.88, 17.87, 19.85, 21.84, 23.82",\
+           "0, 2.625, 5.25, 7.875, 10.5, 13.12, 15.75, 18.38, 21, 23.62, 26.25, 28.88, 31.5");
+  }
+}
