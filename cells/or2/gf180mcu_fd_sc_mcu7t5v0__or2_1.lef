@@ -23,7 +23,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__or2_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 0.4985 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0.66 1.075 1.08 1.075 1.08 2.88 0.66 2.88  ;
     END
   END A1
@@ -31,7 +31,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__or2_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 0.4985 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 1.78 1.74 2.14 1.74 2.14 3.345 1.78 3.345  ;
     END
   END A2
@@ -39,7 +39,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__or2_1
     DIRECTION OUTPUT ;
     ANTENNADIFFAREA 0.8976 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 3.5 2.29 3.535 2.29 3.8 2.29 3.8 1.04 3.365 1.04 3.365 0.61 4.13 0.61 4.13 3.345 3.535 3.345 3.5 3.345  ;
     END
   END Z
@@ -48,7 +48,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__or2_1
     USE power ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 3.62 2.78 3.62 2.78 2.53 3.01 2.53 3.01 3.62 3.535 3.62 4.48 3.62 4.48 4.22 3.535 4.22 0 4.22  ;
     END
   END VDD
@@ -57,12 +57,12 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__or2_1
     USE ground ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 -0.3 4.48 -0.3 4.48 0.3 3.01 0.3 3.01 0.85 2.78 0.85 2.78 0.3 0.53 0.3 0.53 0.825 0.3 0.825 0.3 0.3 0 0.3  ;
     END
   END VSS
   OBS
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0.335 3.13 1.31 3.13 1.31 0.53 1.705 0.53 1.705 1.28 3.535 1.28 3.535 1.64 2.68 1.64 2.68 1.51 1.54 1.51 1.54 3.36 0.335 3.36  ;
   END
 END gf180mcu_fd_sc_mcu7t5v0__or2_1

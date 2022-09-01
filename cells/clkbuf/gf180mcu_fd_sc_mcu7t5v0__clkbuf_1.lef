@@ -23,7 +23,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__clkbuf_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 0.741 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0.705 1.035 1.08 1.035 1.08 1.74 1.59 1.74 1.59 2.15 0.705 2.15  ;
     END
   END I
@@ -31,7 +31,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__clkbuf_1
     DIRECTION OUTPUT ;
     ANTENNADIFFAREA 0.7546 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 2.34 0.565 2.93 0.565 2.93 3.32 2.565 3.32 2.565 1.605 2.34 1.605  ;
     END
   END Z
@@ -40,7 +40,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__clkbuf_1
     USE power ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 3.62 1.31 3.62 1.31 3.015 1.65 3.015 1.65 3.62 2.27 3.62 3.36 3.62 3.36 4.22 2.27 4.22 0 4.22  ;
     END
   END VDD
@@ -49,12 +49,12 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__clkbuf_1
     USE ground ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 -0.3 3.36 -0.3 3.36 0.3 1.65 0.3 1.65 0.925 1.31 0.925 1.31 0.3 0 0.3  ;
     END
   END VSS
   OBS
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0.245 0.565 0.475 0.565 0.475 2.52 1.93 2.52 1.93 1.88 2.27 1.88 2.27 2.755 0.575 2.755 0.575 3.38 0.245 3.38  ;
   END
 END gf180mcu_fd_sc_mcu7t5v0__clkbuf_1

@@ -23,7 +23,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__aoi22_2
     DIRECTION INPUT ;
     ANTENNAGATEAREA 2.193 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 5.69 1.21 8.38 1.21 8.38 1.57 5.69 1.57  ;
     END
   END A1
@@ -31,7 +31,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__aoi22_2
     DIRECTION INPUT ;
     ANTENNAGATEAREA 2.193 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 4.95 1.4 5.235 1.4 5.235 1.8 8.38 1.8 8.38 2.12 4.95 2.12  ;
     END
   END A2
@@ -39,7 +39,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__aoi22_2
     DIRECTION INPUT ;
     ANTENNAGATEAREA 2.193 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0.94 0.61 2.09 0.61 2.09 1.59 1.65 1.59 1.65 1.03 0.94 1.03  ;
     END
   END B1
@@ -47,7 +47,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__aoi22_2
     DIRECTION INPUT ;
     ANTENNAGATEAREA 2.193 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0.62 1.82 4.03 1.82 4.03 2.12 0.62 2.12  ;
     END
   END B2
@@ -55,7 +55,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__aoi22_2
     DIRECTION OUTPUT ;
     ANTENNADIFFAREA 2.139725 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 4.72 2.36 7.67 2.36 7.67 2.78 4.345 2.78 4.345 1.15 2.32 1.15 2.32 0.715 2.555 0.715 2.555 0.87 4.925 0.87 4.925 0.64 6.65 0.64 6.65 0.87 5.155 0.87 5.155 1.1 4.72 1.1  ;
     END
   END ZN
@@ -64,7 +64,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__aoi22_2
     USE power ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 3.62 1.265 3.62 1.265 3.16 1.495 3.16 1.495 3.62 3.305 3.62 3.305 3.16 3.535 3.16 3.535 3.62 8.69 3.62 8.96 3.62 8.96 4.22 8.69 4.22 0 4.22  ;
     END
   END VDD
@@ -73,12 +73,12 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__aoi22_2
     USE ground ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 -0.3 8.96 -0.3 8.96 0.3 8.635 0.3 8.635 0.905 8.405 0.905 8.405 0.3 4.61 0.3 4.61 0.64 4.27 0.64 4.27 0.3 0.475 0.3 0.475 0.905 0.245 0.905 0.245 0.3 0 0.3  ;
     END
   END VSS
   OBS
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0.19 2.53 4.025 2.53 4.025 3.13 8.35 3.13 8.35 2.475 8.69 2.475 8.69 3.365 3.795 3.365 3.795 2.76 2.57 2.76 2.57 3.38 2.23 3.38 2.23 2.76 0.53 2.76 0.53 3.38 0.19 3.38  ;
   END
 END gf180mcu_fd_sc_mcu7t5v0__aoi22_2
