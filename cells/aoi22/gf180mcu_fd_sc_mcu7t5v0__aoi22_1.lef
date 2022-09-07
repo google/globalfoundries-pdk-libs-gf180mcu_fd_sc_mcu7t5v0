@@ -23,7 +23,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__aoi22_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.0965 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 2.92 0.55 3.24 0.55 3.24 2.15 2.92 2.15  ;
     END
   END A1
@@ -31,7 +31,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__aoi22_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.0965 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 3.48 0.55 3.8 0.55 3.8 1.8 4.545 1.8 4.545 2.15 3.48 2.15  ;
     END
   END A2
@@ -39,7 +39,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__aoi22_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.0965 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 1.8 0.55 2.12 0.55 2.12 2.15 1.8 2.15  ;
     END
   END B1
@@ -47,7 +47,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__aoi22_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.0965 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0.61 1.085 1.005 1.085 1.005 1.77 1.57 1.77 1.57 2.15 0.61 2.15  ;
     END
   END B2
@@ -55,7 +55,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__aoi22_1
     DIRECTION OUTPUT ;
     ANTENNADIFFAREA 1.0556 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 2.35 0.585 2.68 0.585 2.68 2.38 3.89 2.38 3.89 2.71 2.35 2.71  ;
     END
   END ZN
@@ -64,7 +64,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__aoi22_1
     USE power ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 3.62 1.33 3.62 1.33 3.04 1.56 3.04 1.56 3.62 4.675 3.62 5.04 3.62 5.04 4.22 4.675 4.22 0 4.22  ;
     END
   END VDD
@@ -73,12 +73,12 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__aoi22_1
     USE ground ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 -0.3 5.04 -0.3 5.04 0.3 4.62 0.3 4.62 0.905 4.39 0.905 4.39 0.3 0.54 0.3 0.54 0.725 0.31 0.725 0.31 0.3 0 0.3  ;
     END
   END VSS
   OBS
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0.255 2.53 2.05 2.53 2.05 3.145 4.335 3.145 4.335 2.53 4.675 2.53 4.675 3.38 1.82 3.38 1.82 2.76 0.595 2.76 0.595 3.38 0.255 3.38  ;
   END
 END gf180mcu_fd_sc_mcu7t5v0__aoi22_1

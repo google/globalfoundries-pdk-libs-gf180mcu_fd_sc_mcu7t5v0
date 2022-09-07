@@ -24,7 +24,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__filltie
     USE power ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 3.62 0.39 3.62 0.39 1.93 0.73 1.93 0.73 3.62 1.12 3.62 1.12 4.22 0 4.22  ;
     END
   END VDD
@@ -33,7 +33,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__filltie
     USE ground ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 -0.3 1.12 -0.3 1.12 0.3 0.73 0.3 0.73 1.185 0.39 1.185 0.39 0.3 0 0.3  ;
     END
   END VSS

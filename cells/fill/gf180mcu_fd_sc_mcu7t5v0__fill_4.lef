@@ -24,7 +24,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__fill_4
     USE power ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 3.62 2.24 3.62 2.24 4.22 0 4.22  ;
     END
   END VDD
@@ -33,7 +33,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__fill_4
     USE ground ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 -0.3 2.24 -0.3 2.24 0.3 0 0.3  ;
     END
   END VSS

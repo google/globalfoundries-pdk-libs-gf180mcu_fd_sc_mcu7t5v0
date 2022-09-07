@@ -23,7 +23,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__mux2_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 0.5235 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 4.01 1.77 6.07 1.77 6.07 2.12 4.01 2.12  ;
     END
   END I0
@@ -31,7 +31,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__mux2_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 0.5235 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 2.33 1.21 2.71 1.21 2.71 2.71 2.33 2.71  ;
     END
   END I1
@@ -39,7 +39,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__mux2_1
     DIRECTION INPUT ;
     ANTENNAGATEAREA 1.047 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 2.94 1.445 3.295 1.445 3.295 2.36 6.09 2.36 6.09 2.785 2.94 2.785  ;
     END
   END S
@@ -47,7 +47,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__mux2_1
     DIRECTION OUTPUT ;
     ANTENNADIFFAREA 0.8976 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0.13 0.65 0.575 0.65 0.575 3.27 0.13 3.27  ;
     END
   END Z
@@ -56,7 +56,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__mux2_1
     USE power ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 3.62 1.365 3.62 1.365 2.76 1.595 2.76 1.595 3.62 3.89 3.62 5.31 3.62 5.31 3.105 5.65 3.105 5.65 3.62 6.815 3.62 7.28 3.62 7.28 4.22 6.815 4.22 3.89 4.22 0 4.22  ;
     END
   END VDD
@@ -65,12 +65,12 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__mux2_1
     USE ground ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 -0.3 7.28 -0.3 7.28 0.3 5.695 0.3 5.695 0.88 5.465 0.88 5.465 0.3 1.595 0.3 1.595 0.865 1.365 0.865 1.365 0.3 0 0.3  ;
     END
   END VSS
   OBS
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 2.055 3.11 3.89 3.11 3.89 3.34 1.825 3.34 1.825 1.625 0.84 1.625 0.84 1.39 1.825 1.39 1.825 0.575 3.88 0.575 3.88 0.815 2.055 0.815  ;
         POLYGON 4.125 1.145 6.35 1.145 6.35 0.53 6.815 0.53 6.815 3.38 6.35 3.38 6.35 1.375 4.125 1.375  ;
   END

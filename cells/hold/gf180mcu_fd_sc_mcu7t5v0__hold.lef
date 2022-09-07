@@ -24,7 +24,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__hold
     ANTENNADIFFAREA 0.4512 ;
     ANTENNAGATEAREA 1.102 ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0.245 0.565 0.475 0.565 0.475 1.155 3.95 1.155 3.95 1.56 0.575 1.56 0.575 2.895 0.245 2.895  ;
     END
   END Z
@@ -33,7 +33,7 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__hold
     USE power ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 3.62 3.225 3.62 3.225 2.535 3.455 2.535 3.455 3.62 4.575 3.62 5.04 3.62 5.04 4.22 4.575 4.22 0 4.22  ;
     END
   END VDD
@@ -42,12 +42,12 @@ MACRO gf180mcu_fd_sc_mcu7t5v0__hold
     USE ground ;
     SHAPE ABUTMENT ;
     PORT
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 0 -0.3 5.04 -0.3 5.04 0.3 3.455 0.3 3.455 0.925 3.225 0.925 3.225 0.3 0 0.3  ;
     END
   END VSS
   OBS
-      LAYER METAL1 ;
+      LAYER Metal1 ;
         POLYGON 2.45 1.885 4.345 1.885 4.345 0.575 4.575 0.575 4.575 3.18 4.245 3.18 4.245 2.185 2.45 2.185  ;
   END
 END gf180mcu_fd_sc_mcu7t5v0__hold
