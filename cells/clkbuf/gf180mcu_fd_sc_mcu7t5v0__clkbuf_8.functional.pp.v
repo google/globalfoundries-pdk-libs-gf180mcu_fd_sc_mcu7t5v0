@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu7t5v0__clkbuf_8( I, Z, VDD, VSS );
+module gf180mcu_fd_sc_mcu7t5v0__clkbuf_8_func( I, Z, VDD, VSS );
 input I;
 inout VDD, VSS;
 output Z;

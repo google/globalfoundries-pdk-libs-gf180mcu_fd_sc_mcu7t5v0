@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu7t5v0__fillcap_4( VDD, VSS );
+module gf180mcu_fd_sc_mcu7t5v0__fillcap_4_func( VDD, VSS );
 inout VDD, VSS;
 
 endmodule

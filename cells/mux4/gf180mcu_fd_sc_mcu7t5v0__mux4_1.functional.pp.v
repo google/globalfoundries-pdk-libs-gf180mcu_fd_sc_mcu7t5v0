@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu7t5v0__mux4_1( I2, S0, I3, Z, S1, I1, I0, VDD, VSS );
+module gf180mcu_fd_sc_mcu7t5v0__mux4_1_func( I2, S0, I3, Z, S1, I1, I0, VDD, VSS );
 input I0, I1, I2, I3, S0, S1;
 inout VDD, VSS;
 output Z;

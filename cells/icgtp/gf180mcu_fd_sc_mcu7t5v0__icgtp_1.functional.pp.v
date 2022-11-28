@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu7t5v0__icgtp_1( TE, E, CLK, Q, VDD, VSS, notifier );
+module gf180mcu_fd_sc_mcu7t5v0__icgtp_1_func( TE, E, CLK, Q, VDD, VSS, notifier );
 input CLK, E, TE, VDD, VSS, notifier;
 output Q;
 
