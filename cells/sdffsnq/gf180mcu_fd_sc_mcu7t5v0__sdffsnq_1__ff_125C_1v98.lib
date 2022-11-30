@@ -4300,7 +4300,7 @@
       ff(IQ1,IQN1) {
         clocked_on : CLK ;
         next_state : D ;
-        preset : !SETN ;
+        preset : "!SETN" ;
       }
 
       pin(CLK) {
