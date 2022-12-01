@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu7t5v0__aoi211_4( ZN, A2, A1, B, C, VDD, VSS );
+module gf180mcu_fd_sc_mcu7t5v0__aoi211_4_func( ZN, A2, A1, B, C, VDD, VSS );
 input A1, A2, B, C;
 inout VDD, VSS;
 output ZN;

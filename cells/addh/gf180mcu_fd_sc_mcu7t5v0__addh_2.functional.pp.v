@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu7t5v0__addh_2( CO, A, B, S, VDD, VSS );
+module gf180mcu_fd_sc_mcu7t5v0__addh_2_func( CO, A, B, S, VDD, VSS );
 input A, B;
 inout VDD, VSS;
 output CO, S;

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu7t5v0__bufz_1( EN, I, Z, VDD, VSS );
+module gf180mcu_fd_sc_mcu7t5v0__bufz_1_func( EN, I, Z, VDD, VSS );
 input EN, I;
 inout VDD, VSS;
 output Z;

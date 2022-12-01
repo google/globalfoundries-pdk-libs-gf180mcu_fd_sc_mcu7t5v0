@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu7t5v0__and4_4( A4, A3, A1, A2, Z, VDD, VSS );
+module gf180mcu_fd_sc_mcu7t5v0__and4_4_func( A4, A3, A1, A2, Z, VDD, VSS );
 input A1, A2, A3, A4;
 inout VDD, VSS;
 output Z;

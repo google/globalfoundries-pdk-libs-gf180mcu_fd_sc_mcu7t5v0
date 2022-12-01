@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu7t5v0__dffnrnq_2( CLKN, D, RN, Q, VDD, VSS, notifier );
+module gf180mcu_fd_sc_mcu7t5v0__dffnrnq_2_func( CLKN, D, RN, Q, VDD, VSS, notifier );
 input CLKN, D, RN, VDD, VSS, notifier;
 output Q;
 

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu7t5v0__xor2_2( A2, A1, Z, VDD, VSS );
+module gf180mcu_fd_sc_mcu7t5v0__xor2_2_func( A2, A1, Z, VDD, VSS );
 input A1, A2;
 inout VDD, VSS;
 output Z;

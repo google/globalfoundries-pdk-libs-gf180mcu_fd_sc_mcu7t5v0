@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu7t5v0__tiel( ZN, VDD, VSS );
+module gf180mcu_fd_sc_mcu7t5v0__tiel_func( ZN, VDD, VSS );
 inout VDD, VSS;
 output ZN;
 

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-module gf180mcu_fd_sc_mcu7t5v0__mux2_2( Z, I1, S, I0, VDD, VSS );
+module gf180mcu_fd_sc_mcu7t5v0__mux2_2_func( Z, I1, S, I0, VDD, VSS );
 input I0, I1, S;
 inout VDD, VSS;
 output Z;
