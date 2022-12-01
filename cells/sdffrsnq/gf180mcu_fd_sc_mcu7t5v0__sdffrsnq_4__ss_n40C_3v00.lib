@@ -10703,8 +10703,8 @@
       }
 
       ff(IQ1,IQN1) {
-        clocked_on : CLK ;
-        next_state : D ;
+        clocked_on : "CLK" ;
+        next_state : "D" ;
         clear : "!RN" ;
         preset : "!SETN" ;
         clear_preset_var1 : L ;
